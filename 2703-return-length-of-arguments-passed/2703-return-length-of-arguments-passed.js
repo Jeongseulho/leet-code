@@ -3,9 +3,7 @@
  * @return {number}
  */
 var argumentsLength = function(...args) {
-    let cnt = 0;
-    args.forEach(() => cnt++)
-    return cnt;
+    return args.length;
 };
 
 /**
