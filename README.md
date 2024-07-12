@@ -35,6 +35,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0283-move-zeroes](https://github.com/Jeongseulho/leet-code/tree/master/0283-move-zeroes) |
 | [0334-increasing-triplet-subsequence](https://github.com/Jeongseulho/leet-code/tree/master/0334-increasing-triplet-subsequence) |
 | [0605-can-place-flowers](https://github.com/Jeongseulho/leet-code/tree/master/0605-can-place-flowers) |
+| [0643-maximum-average-subarray-i](https://github.com/Jeongseulho/leet-code/tree/master/0643-maximum-average-subarray-i) |
 | [1528-kids-with-the-greatest-number-of-candies](https://github.com/Jeongseulho/leet-code/tree/master/1528-kids-with-the-greatest-number-of-candies) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/Jeongseulho/leet-code/tree/master/1798-max-number-of-k-sum-pairs) |
 ## Greedy
@@ -59,4 +60,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1798-max-number-of-k-sum-pairs](https://github.com/Jeongseulho/leet-code/tree/master/1798-max-number-of-k-sum-pairs) |
+## Sliding Window
+|  |
+| ------- |
+| [0643-maximum-average-subarray-i](https://github.com/Jeongseulho/leet-code/tree/master/0643-maximum-average-subarray-i) |
 <!---LeetCode Topics End-->
