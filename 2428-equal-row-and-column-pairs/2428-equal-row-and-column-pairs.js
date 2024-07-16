@@ -3,18 +3,20 @@
  * @return {number}
  */
 var equalPairs = function(grid) {
-    const rows = grid.map((row) => row.toString());
-    let cnt = 0;
-    const cols = [];
-    for(let i = 0; i < grid.length; i++) {
-        const col = [];
-        for(let j = 0; j < grid.length; j++) {
-            col.push(grid[j][i]);
-        }
-
-        for(const row of rows) {
-            if(row === col.toString()) cnt += 1;
+    const n = grid.length;
+    const g = Array.from({ length: n }, () =>
+        Array.from({ length: n }, () => 0),
+    );
+    for (let j = 0; j < n; ++j) {
+        for (let i = 0; i < n; ++i) {
+            g[i][j] = grid[j][i];
         }
     }
-    return cnt;
+    let ans = 0;
+    for (const row of grid) {
+        for (const col of g) {
+            ans += Number(row.toString() === col.toString());
+        }
+    }
+    return ans;
 };
