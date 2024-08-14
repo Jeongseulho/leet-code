@@ -13,13 +13,11 @@ var calcEquation = function(equations, values, queries) {
         if (!(to in adj)) adj[to] = [];
         adj[to].push([from, 1 / values[i]]);
     });
-
-    console.log(adj);
     
     const bfs = (start, target) => {
         if (!(start in adj) || !(target in adj)) return -1;
         if (start === target) return 1;
-        
+
         const visited = [start];
         const needVisit = [[start, 1]];
         while(needVisit.length) {
