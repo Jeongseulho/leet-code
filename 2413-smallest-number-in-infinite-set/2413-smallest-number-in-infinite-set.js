@@ -1,16 +1,15 @@
 
 var SmallestInfiniteSet = function() {
-    this.addNums = [];
-    this.minNum = 1;
+    this.set = Array(1000).fill(true);
 };
 
 /**
  * @return {number}
  */
 SmallestInfiniteSet.prototype.popSmallest = function() {
-    if(this.addNums.length) return this.addNums.shift();
-    this.minNum += 1;
-    return this.minNum - 1;
+    const num = this.set.findIndex((bool) => bool);
+    this.set[num] = false;
+    return num + 1;
 };
 
 /** 
@@ -18,10 +17,7 @@ SmallestInfiniteSet.prototype.popSmallest = function() {
  * @return {void}
  */
 SmallestInfiniteSet.prototype.addBack = function(num) {
-    if(num < this.minNum && !this.addNums.includes(num)) {
-        this.addNums.push(num);
-        this.addNums.sort((a, b) => a - b);
-    }
+    this.set[num - 1] = true;
 };
 
 /** 
