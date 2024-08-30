@@ -52,6 +52,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0643-maximum-average-subarray-i](https://github.com/Jeongseulho/leet-code/tree/master/0643-maximum-average-subarray-i) |
 | [0724-find-pivot-index](https://github.com/Jeongseulho/leet-code/tree/master/0724-find-pivot-index) |
 | [0735-asteroid-collision](https://github.com/Jeongseulho/leet-code/tree/master/0735-asteroid-collision) |
+| [0907-koko-eating-bananas](https://github.com/Jeongseulho/leet-code/tree/master/0907-koko-eating-bananas) |
 | [1036-rotting-oranges](https://github.com/Jeongseulho/leet-code/tree/master/1036-rotting-oranges) |
 | [1046-max-consecutive-ones-iii](https://github.com/Jeongseulho/leet-code/tree/master/1046-max-consecutive-ones-iii) |
 | [1319-unique-number-of-occurrences](https://github.com/Jeongseulho/leet-code/tree/master/1319-unique-number-of-occurrences) |
@@ -116,6 +117,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0162-find-peak-element](https://github.com/Jeongseulho/leet-code/tree/master/0162-find-peak-element) |
 | [0374-guess-number-higher-or-lower](https://github.com/Jeongseulho/leet-code/tree/master/0374-guess-number-higher-or-lower) |
+| [0907-koko-eating-bananas](https://github.com/Jeongseulho/leet-code/tree/master/0907-koko-eating-bananas) |
 | [1046-max-consecutive-ones-iii](https://github.com/Jeongseulho/leet-code/tree/master/1046-max-consecutive-ones-iii) |
 | [2392-successful-pairs-of-spells-and-potions](https://github.com/Jeongseulho/leet-code/tree/master/2392-successful-pairs-of-spells-and-potions) |
 ## Counting
