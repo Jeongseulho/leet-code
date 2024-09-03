@@ -3,19 +3,18 @@
  * @return {number}
  */
 var numTilings = function(n) {
-    const MOD = 10 ** 9 + 7;
-    if (n == 1) return 1;
-    if (n == 2) return 2;
-    if (n == 3) return 5;
-    
-    const dp = new Array(n + 1).fill(0);
-    dp[1] = 1;
-    dp[2] = 2;
-    dp[3] = 5;
-    
-    for (let i = 4; i <= n; i++) {
-        dp[i] = (2 * dp[i-1] + dp[i-3]) % MOD;
+    const MOD = 1e9 + 7;
+    const dp = Array.from({ length : 1001 }, () => Array(2).fill(0));
+    dp[1][0] = 1;
+    dp[2][0] = 2;
+    dp[2][1] = 2;
+    dp[3][0] = 5;
+    dp[3][1] = 4;
+
+    for(let i = 4; i < dp.length; i++) {
+        dp[i][0] = (dp[i - 1][0] + dp[i - 2][0] + dp[i - 1][1]) % MOD;
+        dp[i][1] = (dp[i - 2][0] * 2 + dp[i - 1][1]) % MOD;
     }
-    
-    return dp[n];
+
+    return dp[n][0];
 };
