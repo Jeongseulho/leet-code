@@ -98,6 +98,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0062-unique-paths](https://github.com/Jeongseulho/leet-code/tree/master/0062-unique-paths) |
 | [0072-edit-distance](https://github.com/Jeongseulho/leet-code/tree/master/0072-edit-distance) |
 | [0198-house-robber](https://github.com/Jeongseulho/leet-code/tree/master/0198-house-robber) |
+| [0338-counting-bits](https://github.com/Jeongseulho/leet-code/tree/master/0338-counting-bits) |
 | [0392-is-subsequence](https://github.com/Jeongseulho/leet-code/tree/master/0392-is-subsequence) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/Jeongseulho/leet-code/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0747-min-cost-climbing-stairs](https://github.com/Jeongseulho/leet-code/tree/master/0747-min-cost-climbing-stairs) |
@@ -291,4 +292,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0062-unique-paths](https://github.com/Jeongseulho/leet-code/tree/master/0062-unique-paths) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0338-counting-bits](https://github.com/Jeongseulho/leet-code/tree/master/0338-counting-bits) |
 <!---LeetCode Topics End-->
