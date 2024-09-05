@@ -47,6 +47,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0011-container-with-most-water](https://github.com/Jeongseulho/leet-code/tree/master/0011-container-with-most-water) |
 | [0053-maximum-subarray](https://github.com/Jeongseulho/leet-code/tree/master/0053-maximum-subarray) |
+| [0136-single-number](https://github.com/Jeongseulho/leet-code/tree/master/0136-single-number) |
 | [0162-find-peak-element](https://github.com/Jeongseulho/leet-code/tree/master/0162-find-peak-element) |
 | [0198-house-robber](https://github.com/Jeongseulho/leet-code/tree/master/0198-house-robber) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Jeongseulho/leet-code/tree/master/0215-kth-largest-element-in-an-array) |
@@ -295,5 +296,6 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Bit Manipulation
 |  |
 | ------- |
+| [0136-single-number](https://github.com/Jeongseulho/leet-code/tree/master/0136-single-number) |
 | [0338-counting-bits](https://github.com/Jeongseulho/leet-code/tree/master/0338-counting-bits) |
 <!---LeetCode Topics End-->
