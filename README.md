@@ -178,6 +178,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0394-decode-string](https://github.com/Jeongseulho/leet-code/tree/master/0394-decode-string) |
 | [0735-asteroid-collision](https://github.com/Jeongseulho/leet-code/tree/master/0735-asteroid-collision) |
 | [0739-daily-temperatures](https://github.com/Jeongseulho/leet-code/tree/master/0739-daily-temperatures) |
+| [0937-online-stock-span](https://github.com/Jeongseulho/leet-code/tree/master/0937-online-stock-span) |
 | [2236-maximum-twin-sum-of-a-linked-list](https://github.com/Jeongseulho/leet-code/tree/master/2236-maximum-twin-sum-of-a-linked-list) |
 | [2470-removing-stars-from-a-string](https://github.com/Jeongseulho/leet-code/tree/master/2470-removing-stars-from-a-string) |
 ## Recursion
@@ -292,6 +293,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0208-implement-trie-prefix-tree](https://github.com/Jeongseulho/leet-code/tree/master/0208-implement-trie-prefix-tree) |
+| [0937-online-stock-span](https://github.com/Jeongseulho/leet-code/tree/master/0937-online-stock-span) |
 | [2413-smallest-number-in-infinite-set](https://github.com/Jeongseulho/leet-code/tree/master/2413-smallest-number-in-infinite-set) |
 ## Interactive
 |  |
@@ -325,4 +327,9 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0739-daily-temperatures](https://github.com/Jeongseulho/leet-code/tree/master/0739-daily-temperatures) |
+| [0937-online-stock-span](https://github.com/Jeongseulho/leet-code/tree/master/0937-online-stock-span) |
+## Data Stream
+|  |
+| ------- |
+| [0937-online-stock-span](https://github.com/Jeongseulho/leet-code/tree/master/0937-online-stock-span) |
 <!---LeetCode Topics End-->
