@@ -7,16 +7,17 @@ var letterCombinations = function(digits) {
     const possibleLetter = digits.split('').map((digit) => letters[digit].split(''));
 
     const ans = [];
-    const combination = (comb, numIdx) => {
+    const combination = (comb, selectIdx) => {
         if(comb.length === digits.length) {
-            if(comb.length) ans.push(comb.join(''));
+            if(comb.length) ans.push(comb);
             return;
         }
-        possibleLetter[numIdx].forEach((ele) => {
-            combination([...comb, ele], numIdx + 1);
+
+        possibleLetter[selectIdx].forEach((letter) => {
+            combination(comb + letter, selectIdx + 1);
         })
     }
 
-    combination([], 0);
+    combination('', 0);
     return ans;
 };
