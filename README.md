@@ -65,6 +65,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/Jeongseulho/leet-code/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0724-find-pivot-index](https://github.com/Jeongseulho/leet-code/tree/master/0724-find-pivot-index) |
 | [0735-asteroid-collision](https://github.com/Jeongseulho/leet-code/tree/master/0735-asteroid-collision) |
+| [0739-daily-temperatures](https://github.com/Jeongseulho/leet-code/tree/master/0739-daily-temperatures) |
 | [0747-min-cost-climbing-stairs](https://github.com/Jeongseulho/leet-code/tree/master/0747-min-cost-climbing-stairs) |
 | [0907-koko-eating-bananas](https://github.com/Jeongseulho/leet-code/tree/master/0907-koko-eating-bananas) |
 | [1036-rotting-oranges](https://github.com/Jeongseulho/leet-code/tree/master/1036-rotting-oranges) |
@@ -176,6 +177,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0394-decode-string](https://github.com/Jeongseulho/leet-code/tree/master/0394-decode-string) |
 | [0735-asteroid-collision](https://github.com/Jeongseulho/leet-code/tree/master/0735-asteroid-collision) |
+| [0739-daily-temperatures](https://github.com/Jeongseulho/leet-code/tree/master/0739-daily-temperatures) |
 | [2236-maximum-twin-sum-of-a-linked-list](https://github.com/Jeongseulho/leet-code/tree/master/2236-maximum-twin-sum-of-a-linked-list) |
 | [2470-removing-stars-from-a-string](https://github.com/Jeongseulho/leet-code/tree/master/2470-removing-stars-from-a-string) |
 ## Recursion
@@ -319,4 +321,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0208-implement-trie-prefix-tree](https://github.com/Jeongseulho/leet-code/tree/master/0208-implement-trie-prefix-tree) |
 | [1397-search-suggestions-system](https://github.com/Jeongseulho/leet-code/tree/master/1397-search-suggestions-system) |
+## Monotonic Stack
+|  |
+| ------- |
+| [0739-daily-temperatures](https://github.com/Jeongseulho/leet-code/tree/master/0739-daily-temperatures) |
 <!---LeetCode Topics End-->
