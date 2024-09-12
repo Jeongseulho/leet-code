@@ -53,6 +53,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0046-permutations](https://github.com/Jeongseulho/leet-code/tree/master/0046-permutations) |
 | [0051-n-queens](https://github.com/Jeongseulho/leet-code/tree/master/0051-n-queens) |
 | [0053-maximum-subarray](https://github.com/Jeongseulho/leet-code/tree/master/0053-maximum-subarray) |
+| [0078-subsets](https://github.com/Jeongseulho/leet-code/tree/master/0078-subsets) |
 | [0136-single-number](https://github.com/Jeongseulho/leet-code/tree/master/0136-single-number) |
 | [0162-find-peak-element](https://github.com/Jeongseulho/leet-code/tree/master/0162-find-peak-element) |
 | [0198-house-robber](https://github.com/Jeongseulho/leet-code/tree/master/0198-house-robber) |
@@ -312,6 +313,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0039-combination-sum](https://github.com/Jeongseulho/leet-code/tree/master/0039-combination-sum) |
 | [0046-permutations](https://github.com/Jeongseulho/leet-code/tree/master/0046-permutations) |
 | [0051-n-queens](https://github.com/Jeongseulho/leet-code/tree/master/0051-n-queens) |
+| [0078-subsets](https://github.com/Jeongseulho/leet-code/tree/master/0078-subsets) |
 | [0216-combination-sum-iii](https://github.com/Jeongseulho/leet-code/tree/master/0216-combination-sum-iii) |
 ## Memoization
 |  |
@@ -324,6 +326,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Bit Manipulation
 |  |
 | ------- |
+| [0078-subsets](https://github.com/Jeongseulho/leet-code/tree/master/0078-subsets) |
 | [0136-single-number](https://github.com/Jeongseulho/leet-code/tree/master/0136-single-number) |
 | [0338-counting-bits](https://github.com/Jeongseulho/leet-code/tree/master/0338-counting-bits) |
 | [1441-minimum-flips-to-make-a-or-b-equal-to-c](https://github.com/Jeongseulho/leet-code/tree/master/1441-minimum-flips-to-make-a-or-b-equal-to-c) |
