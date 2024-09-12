@@ -25,6 +25,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0022-generate-parentheses](https://github.com/Jeongseulho/leet-code/tree/master/0022-generate-parentheses) |
 | [0072-edit-distance](https://github.com/Jeongseulho/leet-code/tree/master/0072-edit-distance) |
 | [0079-word-search](https://github.com/Jeongseulho/leet-code/tree/master/0079-word-search) |
+| [0131-palindrome-partitioning](https://github.com/Jeongseulho/leet-code/tree/master/0131-palindrome-partitioning) |
 | [0151-reverse-words-in-a-string](https://github.com/Jeongseulho/leet-code/tree/master/0151-reverse-words-in-a-string) |
 | [0208-implement-trie-prefix-tree](https://github.com/Jeongseulho/leet-code/tree/master/0208-implement-trie-prefix-tree) |
 | [0345-reverse-vowels-of-a-string](https://github.com/Jeongseulho/leet-code/tree/master/0345-reverse-vowels-of-a-string) |
@@ -114,6 +115,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0053-maximum-subarray](https://github.com/Jeongseulho/leet-code/tree/master/0053-maximum-subarray) |
 | [0062-unique-paths](https://github.com/Jeongseulho/leet-code/tree/master/0062-unique-paths) |
 | [0072-edit-distance](https://github.com/Jeongseulho/leet-code/tree/master/0072-edit-distance) |
+| [0131-palindrome-partitioning](https://github.com/Jeongseulho/leet-code/tree/master/0131-palindrome-partitioning) |
 | [0198-house-robber](https://github.com/Jeongseulho/leet-code/tree/master/0198-house-robber) |
 | [0338-counting-bits](https://github.com/Jeongseulho/leet-code/tree/master/0338-counting-bits) |
 | [0392-is-subsequence](https://github.com/Jeongseulho/leet-code/tree/master/0392-is-subsequence) |
@@ -318,6 +320,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0051-n-queens](https://github.com/Jeongseulho/leet-code/tree/master/0051-n-queens) |
 | [0078-subsets](https://github.com/Jeongseulho/leet-code/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/Jeongseulho/leet-code/tree/master/0079-word-search) |
+| [0131-palindrome-partitioning](https://github.com/Jeongseulho/leet-code/tree/master/0131-palindrome-partitioning) |
 | [0216-combination-sum-iii](https://github.com/Jeongseulho/leet-code/tree/master/0216-combination-sum-iii) |
 ## Memoization
 |  |
