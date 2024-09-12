@@ -51,6 +51,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0011-container-with-most-water](https://github.com/Jeongseulho/leet-code/tree/master/0011-container-with-most-water) |
 | [0039-combination-sum](https://github.com/Jeongseulho/leet-code/tree/master/0039-combination-sum) |
 | [0046-permutations](https://github.com/Jeongseulho/leet-code/tree/master/0046-permutations) |
+| [0051-n-queens](https://github.com/Jeongseulho/leet-code/tree/master/0051-n-queens) |
 | [0053-maximum-subarray](https://github.com/Jeongseulho/leet-code/tree/master/0053-maximum-subarray) |
 | [0136-single-number](https://github.com/Jeongseulho/leet-code/tree/master/0136-single-number) |
 | [0162-find-peak-element](https://github.com/Jeongseulho/leet-code/tree/master/0162-find-peak-element) |
@@ -310,6 +311,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0022-generate-parentheses](https://github.com/Jeongseulho/leet-code/tree/master/0022-generate-parentheses) |
 | [0039-combination-sum](https://github.com/Jeongseulho/leet-code/tree/master/0039-combination-sum) |
 | [0046-permutations](https://github.com/Jeongseulho/leet-code/tree/master/0046-permutations) |
+| [0051-n-queens](https://github.com/Jeongseulho/leet-code/tree/master/0051-n-queens) |
 | [0216-combination-sum-iii](https://github.com/Jeongseulho/leet-code/tree/master/0216-combination-sum-iii) |
 ## Memoization
 |  |
