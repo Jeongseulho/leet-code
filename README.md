@@ -59,6 +59,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0046-permutations](https://github.com/Jeongseulho/leet-code/tree/master/0046-permutations) |
 | [0051-n-queens](https://github.com/Jeongseulho/leet-code/tree/master/0051-n-queens) |
 | [0053-maximum-subarray](https://github.com/Jeongseulho/leet-code/tree/master/0053-maximum-subarray) |
+| [0074-search-a-2d-matrix](https://github.com/Jeongseulho/leet-code/tree/master/0074-search-a-2d-matrix) |
 | [0078-subsets](https://github.com/Jeongseulho/leet-code/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/Jeongseulho/leet-code/tree/master/0079-word-search) |
 | [0136-single-number](https://github.com/Jeongseulho/leet-code/tree/master/0136-single-number) |
@@ -167,6 +168,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0033-search-in-rotated-sorted-array](https://github.com/Jeongseulho/leet-code/tree/master/0033-search-in-rotated-sorted-array) |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/Jeongseulho/leet-code/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0035-search-insert-position](https://github.com/Jeongseulho/leet-code/tree/master/0035-search-insert-position) |
+| [0074-search-a-2d-matrix](https://github.com/Jeongseulho/leet-code/tree/master/0074-search-a-2d-matrix) |
 | [0162-find-peak-element](https://github.com/Jeongseulho/leet-code/tree/master/0162-find-peak-element) |
 | [0374-guess-number-higher-or-lower](https://github.com/Jeongseulho/leet-code/tree/master/0374-guess-number-higher-or-lower) |
 | [0907-koko-eating-bananas](https://github.com/Jeongseulho/leet-code/tree/master/0907-koko-eating-bananas) |
@@ -180,6 +182,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Matrix
 |  |
 | ------- |
+| [0074-search-a-2d-matrix](https://github.com/Jeongseulho/leet-code/tree/master/0074-search-a-2d-matrix) |
 | [0079-word-search](https://github.com/Jeongseulho/leet-code/tree/master/0079-word-search) |
 | [1036-rotting-oranges](https://github.com/Jeongseulho/leet-code/tree/master/1036-rotting-oranges) |
 | [2038-nearest-exit-from-entrance-in-maze](https://github.com/Jeongseulho/leet-code/tree/master/2038-nearest-exit-from-entrance-in-maze) |
