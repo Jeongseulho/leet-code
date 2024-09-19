@@ -52,6 +52,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/Jeongseulho/leet-code/tree/master/0004-median-of-two-sorted-arrays) |
 | [0011-container-with-most-water](https://github.com/Jeongseulho/leet-code/tree/master/0011-container-with-most-water) |
+| [0033-search-in-rotated-sorted-array](https://github.com/Jeongseulho/leet-code/tree/master/0033-search-in-rotated-sorted-array) |
 | [0039-combination-sum](https://github.com/Jeongseulho/leet-code/tree/master/0039-combination-sum) |
 | [0046-permutations](https://github.com/Jeongseulho/leet-code/tree/master/0046-permutations) |
 | [0051-n-queens](https://github.com/Jeongseulho/leet-code/tree/master/0051-n-queens) |
@@ -161,6 +162,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/Jeongseulho/leet-code/tree/master/0004-median-of-two-sorted-arrays) |
+| [0033-search-in-rotated-sorted-array](https://github.com/Jeongseulho/leet-code/tree/master/0033-search-in-rotated-sorted-array) |
 | [0162-find-peak-element](https://github.com/Jeongseulho/leet-code/tree/master/0162-find-peak-element) |
 | [0374-guess-number-higher-or-lower](https://github.com/Jeongseulho/leet-code/tree/master/0374-guess-number-higher-or-lower) |
 | [0907-koko-eating-bananas](https://github.com/Jeongseulho/leet-code/tree/master/0907-koko-eating-bananas) |
