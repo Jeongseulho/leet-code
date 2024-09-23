@@ -12,8 +12,7 @@
  */
 var maxDepth = function(root) {
     let ans = 0;
-    if(!root) return 0;
-    
+
     const dfs = (node, depth) => {
         if(!node) return;
         ans = Math.max(depth, ans);
