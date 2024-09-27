@@ -6,6 +6,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Two Pointers
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/Jeongseulho/leet-code/tree/master/0005-longest-palindromic-substring) |
 | [0011-container-with-most-water](https://github.com/Jeongseulho/leet-code/tree/master/0011-container-with-most-water) |
 | [0151-reverse-words-in-a-string](https://github.com/Jeongseulho/leet-code/tree/master/0151-reverse-words-in-a-string) |
 | [0283-move-zeroes](https://github.com/Jeongseulho/leet-code/tree/master/0283-move-zeroes) |
@@ -21,6 +22,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## String
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/Jeongseulho/leet-code/tree/master/0005-longest-palindromic-substring) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Jeongseulho/leet-code/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0022-generate-parentheses](https://github.com/Jeongseulho/leet-code/tree/master/0022-generate-parentheses) |
 | [0072-edit-distance](https://github.com/Jeongseulho/leet-code/tree/master/0072-edit-distance) |
@@ -119,6 +121,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Dynamic Programming
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/Jeongseulho/leet-code/tree/master/0005-longest-palindromic-substring) |
 | [0022-generate-parentheses](https://github.com/Jeongseulho/leet-code/tree/master/0022-generate-parentheses) |
 | [0053-maximum-subarray](https://github.com/Jeongseulho/leet-code/tree/master/0053-maximum-subarray) |
 | [0062-unique-paths](https://github.com/Jeongseulho/leet-code/tree/master/0062-unique-paths) |
