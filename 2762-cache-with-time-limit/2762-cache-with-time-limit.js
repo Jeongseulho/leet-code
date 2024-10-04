@@ -1,6 +1,5 @@
 var TimeLimitedCache = function() {
-    this.cache = {};
-    this.expireTime = {};
+    this.cache = new Map();
 };
 
 /** 
@@ -10,13 +9,14 @@ var TimeLimitedCache = function() {
  * @return {boolean} if un-expired key already existed
  */
 TimeLimitedCache.prototype.set = function(key, value, duration) {
-    const { cache, expireTime } = this;
-    let returnVal = false;
-    if(cache[key] && expireTime[key] > Date.now()) returnVal = true;
+    let found = this.cache.has(key);
+    if (found) clearTimeout(this.cache.get(key).timer);
 
-    cache[key] = value;
-    expireTime[key] = Date.now() + duration;
-    return returnVal;
+    this.cache.set(key, {
+        value,
+        timer : setTimeout(() => this.cache.delete(key), duration)
+    });
+    return found;
 };
 
 /** 
@@ -24,19 +24,14 @@ TimeLimitedCache.prototype.set = function(key, value, duration) {
  * @return {number} value associated with key
  */
 TimeLimitedCache.prototype.get = function(key) {
-    const { cache, expireTime } = this;
-    if(cache[key] && expireTime[key] > Date.now()) return cache[key];
-    else return -1;
+    return this.cache.has(key) ? this.cache.get(key).value : -1;
 };
 
 /** 
  * @return {number} count of non-expired keys
  */
 TimeLimitedCache.prototype.count = function() {
-    const { expireTime } = this;
-    return Object.values(expireTime).reduce((acc, cur) => {
-        return cur > Date.now() ? acc + 1 : acc;
-    }, 0)
+    return this.cache.size;
 };
 
 /**
