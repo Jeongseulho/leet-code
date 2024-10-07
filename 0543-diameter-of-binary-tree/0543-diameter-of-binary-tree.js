@@ -13,18 +13,18 @@
 var diameterOfBinaryTree = function(root) {
     let maxLen = 0;
 
-    const getLen = (node) => {
+    const getMaxLen = (node) => {
         if(!node) return 0;
 
-        const leftLen = getLen(node.left);
-        const rightLen = getLen(node.right);
+        const leftLen = getMaxLen(node.left);
+        const rightLen = getMaxLen(node.right);
 
         maxLen = Math.max(leftLen + rightLen, maxLen);
 
         return Math.max(leftLen, rightLen) + 1;
     }
 
-    getLen(root);
+    getMaxLen(root);
 
     return maxLen;
 };
