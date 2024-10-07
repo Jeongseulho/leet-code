@@ -11,18 +11,17 @@
  * @return {number[]}
  */
 var rightSideView = function(root) {
-    const rightSide = new Map();
-    const needVisit = [[root, 0]];
+    const ans = {};
 
-    while(needVisit.length) {
-        const [node, depth] = needVisit.shift();
-        if(!node) continue;
+    const dfs = (node, depth) => {
+        if(!node) return;
 
-        rightSide.set(depth, node.val);
-
-        needVisit.push([node.left, depth + 1]);
-        needVisit.push([node.right, depth + 1]);
+        ans[depth] = node.val;
+        if(node.left) dfs(node.left, depth + 1);
+        if(node.right) dfs(node.right, depth + 1);
     }
 
-    return [...rightSide.values()];
+    if(root) dfs(root, 0);
+
+    return Object.values(ans);
 };
