@@ -48,6 +48,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0062-unique-paths](https://github.com/Jeongseulho/leet-code/tree/master/0062-unique-paths) |
+| [0070-climbing-stairs](https://github.com/Jeongseulho/leet-code/tree/master/0070-climbing-stairs) |
 | [1146-greatest-common-divisor-of-strings](https://github.com/Jeongseulho/leet-code/tree/master/1146-greatest-common-divisor-of-strings) |
 | [1236-n-th-tribonacci-number](https://github.com/Jeongseulho/leet-code/tree/master/1236-n-th-tribonacci-number) |
 ## Array
@@ -133,6 +134,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0053-maximum-subarray](https://github.com/Jeongseulho/leet-code/tree/master/0053-maximum-subarray) |
 | [0062-unique-paths](https://github.com/Jeongseulho/leet-code/tree/master/0062-unique-paths) |
 | [0064-minimum-path-sum](https://github.com/Jeongseulho/leet-code/tree/master/0064-minimum-path-sum) |
+| [0070-climbing-stairs](https://github.com/Jeongseulho/leet-code/tree/master/0070-climbing-stairs) |
 | [0072-edit-distance](https://github.com/Jeongseulho/leet-code/tree/master/0072-edit-distance) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/Jeongseulho/leet-code/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0131-palindrome-partitioning](https://github.com/Jeongseulho/leet-code/tree/master/0131-palindrome-partitioning) |
@@ -401,6 +403,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Memoization
 |  |
 | ------- |
+| [0070-climbing-stairs](https://github.com/Jeongseulho/leet-code/tree/master/0070-climbing-stairs) |
 | [1236-n-th-tribonacci-number](https://github.com/Jeongseulho/leet-code/tree/master/1236-n-th-tribonacci-number) |
 ## Combinatorics
 |  |
