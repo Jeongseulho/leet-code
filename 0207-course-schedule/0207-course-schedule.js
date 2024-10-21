@@ -11,8 +11,9 @@ var canFinish = function(numCourses, prerequisites) {
     });
 
     const visited = new Array(numCourses).fill(false);
+    const path = new Array(numCourses).fill(false);
 
-    const hasCycle = (course, path) => {
+    const hasCycle = (course) => {
         if (path[course]) return true;
         if (visited[course]) return false;
 
@@ -20,7 +21,7 @@ var canFinish = function(numCourses, prerequisites) {
         visited[course] = true;
 
         for (const pre of adjList[course]) {
-            if (hasCycle(pre, path)) return true;
+            if (hasCycle(pre)) return true;
         }
 
         path[course] = false;
@@ -29,7 +30,7 @@ var canFinish = function(numCourses, prerequisites) {
     };
 
     for (let i = 0; i < numCourses; i++) {
-        if (!visited[i] && hasCycle(i, new Array(numCourses).fill(false))) {
+        if (!visited[i] && hasCycle(i)) {
             return false;
         }
     }
