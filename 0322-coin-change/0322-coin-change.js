@@ -6,9 +6,6 @@
 var coinChange = function(coins, amount) {
     const dp = Array(amount + 1).fill(Infinity);
     dp[0] = 0;
-    for(const coin of coins) {
-        dp[coin] = 1;
-    }
 
     for(let total = 1; total <= amount; total++) {
         for(const coin of coins) {
