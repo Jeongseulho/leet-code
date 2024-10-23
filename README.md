@@ -84,6 +84,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0216-combination-sum-iii](https://github.com/Jeongseulho/leet-code/tree/master/0216-combination-sum-iii) |
 | [0238-product-of-array-except-self](https://github.com/Jeongseulho/leet-code/tree/master/0238-product-of-array-except-self) |
 | [0283-move-zeroes](https://github.com/Jeongseulho/leet-code/tree/master/0283-move-zeroes) |
+| [0300-longest-increasing-subsequence](https://github.com/Jeongseulho/leet-code/tree/master/0300-longest-increasing-subsequence) |
 | [0334-increasing-triplet-subsequence](https://github.com/Jeongseulho/leet-code/tree/master/0334-increasing-triplet-subsequence) |
 | [0399-evaluate-division](https://github.com/Jeongseulho/leet-code/tree/master/0399-evaluate-division) |
 | [0435-non-overlapping-intervals](https://github.com/Jeongseulho/leet-code/tree/master/0435-non-overlapping-intervals) |
@@ -148,6 +149,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0152-maximum-product-subarray](https://github.com/Jeongseulho/leet-code/tree/master/0152-maximum-product-subarray) |
 | [0198-house-robber](https://github.com/Jeongseulho/leet-code/tree/master/0198-house-robber) |
 | [0279-perfect-squares](https://github.com/Jeongseulho/leet-code/tree/master/0279-perfect-squares) |
+| [0300-longest-increasing-subsequence](https://github.com/Jeongseulho/leet-code/tree/master/0300-longest-increasing-subsequence) |
 | [0338-counting-bits](https://github.com/Jeongseulho/leet-code/tree/master/0338-counting-bits) |
 | [0392-is-subsequence](https://github.com/Jeongseulho/leet-code/tree/master/0392-is-subsequence) |
 | [0435-non-overlapping-intervals](https://github.com/Jeongseulho/leet-code/tree/master/0435-non-overlapping-intervals) |
@@ -199,6 +201,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0074-search-a-2d-matrix](https://github.com/Jeongseulho/leet-code/tree/master/0074-search-a-2d-matrix) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/Jeongseulho/leet-code/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0162-find-peak-element](https://github.com/Jeongseulho/leet-code/tree/master/0162-find-peak-element) |
+| [0300-longest-increasing-subsequence](https://github.com/Jeongseulho/leet-code/tree/master/0300-longest-increasing-subsequence) |
 | [0374-guess-number-higher-or-lower](https://github.com/Jeongseulho/leet-code/tree/master/0374-guess-number-higher-or-lower) |
 | [0907-koko-eating-bananas](https://github.com/Jeongseulho/leet-code/tree/master/0907-koko-eating-bananas) |
 | [1046-max-consecutive-ones-iii](https://github.com/Jeongseulho/leet-code/tree/master/1046-max-consecutive-ones-iii) |
