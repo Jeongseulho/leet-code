@@ -3,14 +3,16 @@
  * @return {number}
  */
 var maxArea = function(height) {
-    let [s, e] = [0, height.length - 1];
+    let start = 0;
+    let end = height.length - 1;
     let maxWater = 0;
-    while(e >= s) {
-        const y = Math.min(height[s], height[e]);
-        const x = e - s;
-        maxWater = Math.max(maxWater, y * x);
-        if(height[s] > height[e]) e--;
-        else s++;
+
+    while(start < end) {
+        const x = end - start;
+        const y = Math.min(height[end], height[start]);
+        maxWater = Math.max(maxWater, x * y);
+        if(height[end] < height[start]) end -= 1;
+        else start += 1;
     }
 
     return maxWater;
