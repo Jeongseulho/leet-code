@@ -3,17 +3,26 @@
  * @return {number[]}
  */
 var productExceptSelf = function(nums) {
-    let res = new Array(nums.length).fill(1);
+    const dp1 = Array(nums.length).fill(0);
+    dp1[0] = nums[0];
 
-    for (let i = 1; i < nums.length; i++) {
-        res[i] = res[i - 1] * nums[i - 1];
+    const dp2 = Array(nums.length).fill(0);
+    dp2[nums.length - 1] = nums[nums.length - 1];
+
+    for(let i = 1; i < nums.length; i++) {
+        dp1[i] = dp1[i - 1] * nums[i];
     }
 
-    let acc = 1;
-    for (let i = nums.length - 2; i >= 0; i--) {
-        acc *= nums[i + 1];
-        res[i] *= acc;
+    for(let i = nums.length - 2; i > -1; i--) {
+        dp2[i] = dp2[i + 1] * nums[i];
     }
 
-    return res;
+    const ans = Array(nums.length).fill(0);
+    ans[0] = dp2[1];
+    ans[nums.length - 1] = dp1[nums.length - 2]
+    for(let i = 1; i < nums.length - 1; i++) {
+        ans[i] = dp1[i - 1] * dp2[i + 1];
+    }
+
+    return ans;
 };
