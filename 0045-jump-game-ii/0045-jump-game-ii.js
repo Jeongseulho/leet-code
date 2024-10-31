@@ -15,10 +15,6 @@ var jump = function(nums) {
         if (i === curEnd) {
             cnt++;
             curEnd = nextEnd;
-
-            if (curEnd >= nums.length - 1) {
-                break;
-            }
         }
     }
 
