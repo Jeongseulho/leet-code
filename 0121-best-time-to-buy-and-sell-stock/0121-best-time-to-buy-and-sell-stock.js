@@ -4,12 +4,12 @@
  */
 var maxProfit = function(prices) {
     let buyPrice = prices[0];
-    let profit = 0;
+    let maxProfit = 0;
 
-    for(let day = 0; day < prices.length; day++) {
-        profit = Math.max(profit, prices[day] - buyPrice);
-        if(prices[day] < buyPrice) buyPrice = prices[day];
+    for(const price of prices) {
+        maxProfit = Math.max(maxProfit, price - buyPrice);
+        if(price < buyPrice) buyPrice = price;
     }
 
-    return profit;
+    return maxProfit;
 };
