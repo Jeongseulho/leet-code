@@ -3,15 +3,24 @@
  * @return {number}
  */
 var jump = function(nums) {
-    const dp = Array(nums.length).fill(Infinity);
-    dp[0] = 0;
+    if (nums.length <= 1) return 0;
 
-    for(let i = 0; i < nums.length; i++) {
-        for(let j = 1; j <= nums[i]; j++) {
-            const ni = i + j;
-            if(ni < nums.length) dp[ni] = Math.min(dp[ni], dp[i] + 1);
+    let cnt = 0;
+    let curEnd = 0;
+    let nextEnd = 0;
+
+    for (let i = 0; i < nums.length - 1; i++) {
+        nextEnd = Math.max(nextEnd, nums[i] + i);
+        
+        if (i === curEnd) {
+            cnt++;
+            curEnd = nextEnd;
+
+            if (curEnd >= nums.length - 1) {
+                break;
+            }
         }
     }
 
-    return dp.at(-1);
+    return cnt;
 };
