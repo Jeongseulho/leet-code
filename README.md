@@ -104,6 +104,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0215-kth-largest-element-in-an-array](https://github.com/Jeongseulho/leet-code/tree/master/0215-kth-largest-element-in-an-array) |
 | [0216-combination-sum-iii](https://github.com/Jeongseulho/leet-code/tree/master/0216-combination-sum-iii) |
 | [0238-product-of-array-except-self](https://github.com/Jeongseulho/leet-code/tree/master/0238-product-of-array-except-self) |
+| [0274-h-index](https://github.com/Jeongseulho/leet-code/tree/master/0274-h-index) |
 | [0283-move-zeroes](https://github.com/Jeongseulho/leet-code/tree/master/0283-move-zeroes) |
 | [0300-longest-increasing-subsequence](https://github.com/Jeongseulho/leet-code/tree/master/0300-longest-increasing-subsequence) |
 | [0322-coin-change](https://github.com/Jeongseulho/leet-code/tree/master/0322-coin-change) |
@@ -222,6 +223,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0056-merge-intervals](https://github.com/Jeongseulho/leet-code/tree/master/0056-merge-intervals) |
 | [0169-majority-element](https://github.com/Jeongseulho/leet-code/tree/master/0169-majority-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Jeongseulho/leet-code/tree/master/0215-kth-largest-element-in-an-array) |
+| [0274-h-index](https://github.com/Jeongseulho/leet-code/tree/master/0274-h-index) |
 | [0435-non-overlapping-intervals](https://github.com/Jeongseulho/leet-code/tree/master/0435-non-overlapping-intervals) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/Jeongseulho/leet-code/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [1397-search-suggestions-system](https://github.com/Jeongseulho/leet-code/tree/master/1397-search-suggestions-system) |
@@ -505,4 +507,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0207-course-schedule](https://github.com/Jeongseulho/leet-code/tree/master/0207-course-schedule) |
+## Counting Sort
+|  |
+| ------- |
+| [0274-h-index](https://github.com/Jeongseulho/leet-code/tree/master/0274-h-index) |
 <!---LeetCode Topics End-->
