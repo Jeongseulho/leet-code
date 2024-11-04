@@ -35,6 +35,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0022-generate-parentheses](https://github.com/Jeongseulho/leet-code/tree/master/0022-generate-parentheses) |
 | [0032-longest-valid-parentheses](https://github.com/Jeongseulho/leet-code/tree/master/0032-longest-valid-parentheses) |
 | [0049-group-anagrams](https://github.com/Jeongseulho/leet-code/tree/master/0049-group-anagrams) |
+| [0058-length-of-last-word](https://github.com/Jeongseulho/leet-code/tree/master/0058-length-of-last-word) |
 | [0072-edit-distance](https://github.com/Jeongseulho/leet-code/tree/master/0072-edit-distance) |
 | [0079-word-search](https://github.com/Jeongseulho/leet-code/tree/master/0079-word-search) |
 | [0131-palindrome-partitioning](https://github.com/Jeongseulho/leet-code/tree/master/0131-palindrome-partitioning) |
