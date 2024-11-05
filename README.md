@@ -113,6 +113,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0189-rotate-array](https://github.com/Jeongseulho/leet-code/tree/master/0189-rotate-array) |
 | [0198-house-robber](https://github.com/Jeongseulho/leet-code/tree/master/0198-house-robber) |
 | [0200-number-of-islands](https://github.com/Jeongseulho/leet-code/tree/master/0200-number-of-islands) |
+| [0209-minimum-size-subarray-sum](https://github.com/Jeongseulho/leet-code/tree/master/0209-minimum-size-subarray-sum) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Jeongseulho/leet-code/tree/master/0215-kth-largest-element-in-an-array) |
 | [0216-combination-sum-iii](https://github.com/Jeongseulho/leet-code/tree/master/0216-combination-sum-iii) |
 | [0238-product-of-array-except-self](https://github.com/Jeongseulho/leet-code/tree/master/0238-product-of-array-except-self) |
@@ -167,6 +168,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Prefix Sum
 |  |
 | ------- |
+| [0209-minimum-size-subarray-sum](https://github.com/Jeongseulho/leet-code/tree/master/0209-minimum-size-subarray-sum) |
 | [0238-product-of-array-except-self](https://github.com/Jeongseulho/leet-code/tree/master/0238-product-of-array-except-self) |
 | [0560-subarray-sum-equals-k](https://github.com/Jeongseulho/leet-code/tree/master/0560-subarray-sum-equals-k) |
 | [0724-find-pivot-index](https://github.com/Jeongseulho/leet-code/tree/master/0724-find-pivot-index) |
@@ -250,6 +252,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Jeongseulho/leet-code/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0209-minimum-size-subarray-sum](https://github.com/Jeongseulho/leet-code/tree/master/0209-minimum-size-subarray-sum) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/Jeongseulho/leet-code/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0643-maximum-average-subarray-i](https://github.com/Jeongseulho/leet-code/tree/master/0643-maximum-average-subarray-i) |
 | [1046-max-consecutive-ones-iii](https://github.com/Jeongseulho/leet-code/tree/master/1046-max-consecutive-ones-iii) |
@@ -266,6 +269,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/Jeongseulho/leet-code/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0162-find-peak-element](https://github.com/Jeongseulho/leet-code/tree/master/0162-find-peak-element) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Jeongseulho/leet-code/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0209-minimum-size-subarray-sum](https://github.com/Jeongseulho/leet-code/tree/master/0209-minimum-size-subarray-sum) |
 | [0300-longest-increasing-subsequence](https://github.com/Jeongseulho/leet-code/tree/master/0300-longest-increasing-subsequence) |
 | [0374-guess-number-higher-or-lower](https://github.com/Jeongseulho/leet-code/tree/master/0374-guess-number-higher-or-lower) |
 | [0907-koko-eating-bananas](https://github.com/Jeongseulho/leet-code/tree/master/0907-koko-eating-bananas) |
