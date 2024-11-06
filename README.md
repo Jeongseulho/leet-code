@@ -67,6 +67,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0012-integer-to-roman](https://github.com/Jeongseulho/leet-code/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/Jeongseulho/leet-code/tree/master/0013-roman-to-integer) |
+| [0048-rotate-image](https://github.com/Jeongseulho/leet-code/tree/master/0048-rotate-image) |
 | [0062-unique-paths](https://github.com/Jeongseulho/leet-code/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/Jeongseulho/leet-code/tree/master/0070-climbing-stairs) |
 | [0189-rotate-array](https://github.com/Jeongseulho/leet-code/tree/master/0189-rotate-array) |
@@ -87,6 +88,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0039-combination-sum](https://github.com/Jeongseulho/leet-code/tree/master/0039-combination-sum) |
 | [0045-jump-game-ii](https://github.com/Jeongseulho/leet-code/tree/master/0045-jump-game-ii) |
 | [0046-permutations](https://github.com/Jeongseulho/leet-code/tree/master/0046-permutations) |
+| [0048-rotate-image](https://github.com/Jeongseulho/leet-code/tree/master/0048-rotate-image) |
 | [0049-group-anagrams](https://github.com/Jeongseulho/leet-code/tree/master/0049-group-anagrams) |
 | [0051-n-queens](https://github.com/Jeongseulho/leet-code/tree/master/0051-n-queens) |
 | [0053-maximum-subarray](https://github.com/Jeongseulho/leet-code/tree/master/0053-maximum-subarray) |
@@ -288,6 +290,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0036-valid-sudoku](https://github.com/Jeongseulho/leet-code/tree/master/0036-valid-sudoku) |
+| [0048-rotate-image](https://github.com/Jeongseulho/leet-code/tree/master/0048-rotate-image) |
 | [0054-spiral-matrix](https://github.com/Jeongseulho/leet-code/tree/master/0054-spiral-matrix) |
 | [0064-minimum-path-sum](https://github.com/Jeongseulho/leet-code/tree/master/0064-minimum-path-sum) |
 | [0074-search-a-2d-matrix](https://github.com/Jeongseulho/leet-code/tree/master/0074-search-a-2d-matrix) |
