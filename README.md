@@ -90,6 +90,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0049-group-anagrams](https://github.com/Jeongseulho/leet-code/tree/master/0049-group-anagrams) |
 | [0051-n-queens](https://github.com/Jeongseulho/leet-code/tree/master/0051-n-queens) |
 | [0053-maximum-subarray](https://github.com/Jeongseulho/leet-code/tree/master/0053-maximum-subarray) |
+| [0054-spiral-matrix](https://github.com/Jeongseulho/leet-code/tree/master/0054-spiral-matrix) |
 | [0055-jump-game](https://github.com/Jeongseulho/leet-code/tree/master/0055-jump-game) |
 | [0056-merge-intervals](https://github.com/Jeongseulho/leet-code/tree/master/0056-merge-intervals) |
 | [0064-minimum-path-sum](https://github.com/Jeongseulho/leet-code/tree/master/0064-minimum-path-sum) |
@@ -287,6 +288,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0036-valid-sudoku](https://github.com/Jeongseulho/leet-code/tree/master/0036-valid-sudoku) |
+| [0054-spiral-matrix](https://github.com/Jeongseulho/leet-code/tree/master/0054-spiral-matrix) |
 | [0064-minimum-path-sum](https://github.com/Jeongseulho/leet-code/tree/master/0064-minimum-path-sum) |
 | [0074-search-a-2d-matrix](https://github.com/Jeongseulho/leet-code/tree/master/0074-search-a-2d-matrix) |
 | [0079-word-search](https://github.com/Jeongseulho/leet-code/tree/master/0079-word-search) |
@@ -297,6 +299,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Simulation
 |  |
 | ------- |
+| [0054-spiral-matrix](https://github.com/Jeongseulho/leet-code/tree/master/0054-spiral-matrix) |
 | [0735-asteroid-collision](https://github.com/Jeongseulho/leet-code/tree/master/0735-asteroid-collision) |
 | [2428-equal-row-and-column-pairs](https://github.com/Jeongseulho/leet-code/tree/master/2428-equal-row-and-column-pairs) |
 | [2470-removing-stars-from-a-string](https://github.com/Jeongseulho/leet-code/tree/master/2470-removing-stars-from-a-string) |
