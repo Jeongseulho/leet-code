@@ -4,13 +4,10 @@
  * @return {number[]}
  */
 var twoSum = function(nums, target) {
-    let numToIndexMap = {};
-
-    for (let i = 0; i < nums.length; i++) {
-        let diff = target - nums[i];
-        if (numToIndexMap.hasOwnProperty(diff)) {
-            return [i, numToIndexMap[diff]];
-        }
-        numToIndexMap[nums[i]] = i;
+    const hash = {};
+    for(let i = 0; i < nums.length; i++) {
+        const num = target - nums[i];
+        if(hash.hasOwnProperty(num)) return [hash[num], i];
+        hash[nums[i]] = i;
     }
 };
