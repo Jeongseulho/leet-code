@@ -7,7 +7,7 @@ var isIsomorphic = function(s, t) {
     const map = {};
     const reverseMap = {};
     for(let i = 0; i < s.length; i++) {
-        if(s[i] in map || t[i] in reverseMap) {
+        if(map.hasOwnProperty(s[i]) || reverseMap.hasOwnProperty(t[i])) {
             if(map[s[i]] !== t[i]) return false;
         } else {
             map[s[i]] = t[i];
