@@ -48,6 +48,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0151-reverse-words-in-a-string](https://github.com/Jeongseulho/leet-code/tree/master/0151-reverse-words-in-a-string) |
 | [0208-implement-trie-prefix-tree](https://github.com/Jeongseulho/leet-code/tree/master/0208-implement-trie-prefix-tree) |
 | [0345-reverse-vowels-of-a-string](https://github.com/Jeongseulho/leet-code/tree/master/0345-reverse-vowels-of-a-string) |
+| [0383-ransom-note](https://github.com/Jeongseulho/leet-code/tree/master/0383-ransom-note) |
 | [0392-is-subsequence](https://github.com/Jeongseulho/leet-code/tree/master/0392-is-subsequence) |
 | [0394-decode-string](https://github.com/Jeongseulho/leet-code/tree/master/0394-decode-string) |
 | [0399-evaluate-division](https://github.com/Jeongseulho/leet-code/tree/master/0399-evaluate-division) |
@@ -231,6 +232,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0139-word-break](https://github.com/Jeongseulho/leet-code/tree/master/0139-word-break) |
 | [0169-majority-element](https://github.com/Jeongseulho/leet-code/tree/master/0169-majority-element) |
 | [0208-implement-trie-prefix-tree](https://github.com/Jeongseulho/leet-code/tree/master/0208-implement-trie-prefix-tree) |
+| [0383-ransom-note](https://github.com/Jeongseulho/leet-code/tree/master/0383-ransom-note) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/Jeongseulho/leet-code/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0560-subarray-sum-equals-k](https://github.com/Jeongseulho/leet-code/tree/master/0560-subarray-sum-equals-k) |
 | [0768-partition-labels](https://github.com/Jeongseulho/leet-code/tree/master/0768-partition-labels) |
@@ -288,6 +290,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/Jeongseulho/leet-code/tree/master/0169-majority-element) |
+| [0383-ransom-note](https://github.com/Jeongseulho/leet-code/tree/master/0383-ransom-note) |
 | [1777-determine-if-two-strings-are-close](https://github.com/Jeongseulho/leet-code/tree/master/1777-determine-if-two-strings-are-close) |
 ## Matrix
 |  |
