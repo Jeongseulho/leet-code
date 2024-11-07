@@ -14,6 +14,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0151-reverse-words-in-a-string](https://github.com/Jeongseulho/leet-code/tree/master/0151-reverse-words-in-a-string) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Jeongseulho/leet-code/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0189-rotate-array](https://github.com/Jeongseulho/leet-code/tree/master/0189-rotate-array) |
+| [0202-happy-number](https://github.com/Jeongseulho/leet-code/tree/master/0202-happy-number) |
 | [0283-move-zeroes](https://github.com/Jeongseulho/leet-code/tree/master/0283-move-zeroes) |
 | [0345-reverse-vowels-of-a-string](https://github.com/Jeongseulho/leet-code/tree/master/0345-reverse-vowels-of-a-string) |
 | [0392-is-subsequence](https://github.com/Jeongseulho/leet-code/tree/master/0392-is-subsequence) |
@@ -75,6 +76,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0062-unique-paths](https://github.com/Jeongseulho/leet-code/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/Jeongseulho/leet-code/tree/master/0070-climbing-stairs) |
 | [0189-rotate-array](https://github.com/Jeongseulho/leet-code/tree/master/0189-rotate-array) |
+| [0202-happy-number](https://github.com/Jeongseulho/leet-code/tree/master/0202-happy-number) |
 | [0279-perfect-squares](https://github.com/Jeongseulho/leet-code/tree/master/0279-perfect-squares) |
 | [1146-greatest-common-divisor-of-strings](https://github.com/Jeongseulho/leet-code/tree/master/1146-greatest-common-divisor-of-strings) |
 | [1236-n-th-tribonacci-number](https://github.com/Jeongseulho/leet-code/tree/master/1236-n-th-tribonacci-number) |
@@ -234,6 +236,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0128-longest-consecutive-sequence](https://github.com/Jeongseulho/leet-code/tree/master/0128-longest-consecutive-sequence) |
 | [0139-word-break](https://github.com/Jeongseulho/leet-code/tree/master/0139-word-break) |
 | [0169-majority-element](https://github.com/Jeongseulho/leet-code/tree/master/0169-majority-element) |
+| [0202-happy-number](https://github.com/Jeongseulho/leet-code/tree/master/0202-happy-number) |
 | [0205-isomorphic-strings](https://github.com/Jeongseulho/leet-code/tree/master/0205-isomorphic-strings) |
 | [0208-implement-trie-prefix-tree](https://github.com/Jeongseulho/leet-code/tree/master/0208-implement-trie-prefix-tree) |
 | [0242-valid-anagram](https://github.com/Jeongseulho/leet-code/tree/master/0242-valid-anagram) |
