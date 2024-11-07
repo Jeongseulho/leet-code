@@ -7,7 +7,7 @@ var groupAnagrams = function(strs) {
 
     for(const s of strs) {
         const key = s.split('').sort().join('');
-        if(!ans[key]) ans[key] = [];
+        if(!ans.hasOwnProperty(key)) ans[key] = [];
         ans[key].push(s);
     }
 
