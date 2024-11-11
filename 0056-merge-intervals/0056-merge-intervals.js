@@ -3,25 +3,21 @@
  * @return {number[][]}
  */
 var merge = function(intervals) {
-    if(!intervals.length) return [];
-    if(intervals.length === 1) return intervals;
+    intervals.sort((a, b) => {
+        return a[0] - b[0];
+    });
 
-    intervals.sort((a, b) => a[0] - b[0]);
-
-    const ans = [];
-    let maxEnd = intervals[0][1];
-    let minStart = intervals[0][0];
+    const stack = [intervals[0]];
 
     for(let i = 1; i < intervals.length; i++) {
+        const [prevStart, prevEnd] = stack.at(-1);
         const [start, end] = intervals[i];
-        if(maxEnd < start) {
-            ans.push([minStart, maxEnd]);
-            minStart = start;
+        if(prevEnd >= start) {
+            stack.pop();
+            stack.push([prevStart, Math.max(end, prevEnd)]);
         }
-
-        maxEnd = Math.max(maxEnd, end);
-        if(i === intervals.length - 1) ans.push([minStart, maxEnd]);
+        else stack.push([start, end]);
     }
 
-    return ans;
+    return stack;
 };
