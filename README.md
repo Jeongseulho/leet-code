@@ -42,6 +42,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0032-longest-valid-parentheses](https://github.com/Jeongseulho/leet-code/tree/master/0032-longest-valid-parentheses) |
 | [0049-group-anagrams](https://github.com/Jeongseulho/leet-code/tree/master/0049-group-anagrams) |
 | [0058-length-of-last-word](https://github.com/Jeongseulho/leet-code/tree/master/0058-length-of-last-word) |
+| [0071-simplify-path](https://github.com/Jeongseulho/leet-code/tree/master/0071-simplify-path) |
 | [0072-edit-distance](https://github.com/Jeongseulho/leet-code/tree/master/0072-edit-distance) |
 | [0079-word-search](https://github.com/Jeongseulho/leet-code/tree/master/0079-word-search) |
 | [0131-palindrome-partitioning](https://github.com/Jeongseulho/leet-code/tree/master/0131-palindrome-partitioning) |
@@ -336,6 +337,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0020-valid-parentheses](https://github.com/Jeongseulho/leet-code/tree/master/0020-valid-parentheses) |
 | [0032-longest-valid-parentheses](https://github.com/Jeongseulho/leet-code/tree/master/0032-longest-valid-parentheses) |
+| [0071-simplify-path](https://github.com/Jeongseulho/leet-code/tree/master/0071-simplify-path) |
 | [0094-binary-tree-inorder-traversal](https://github.com/Jeongseulho/leet-code/tree/master/0094-binary-tree-inorder-traversal) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/Jeongseulho/leet-code/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0394-decode-string](https://github.com/Jeongseulho/leet-code/tree/master/0394-decode-string) |
