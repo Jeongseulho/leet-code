@@ -3,15 +3,17 @@
  * @return {number}
  */
 var findMinArrowShots = function(points) {
-    points.sort((a, b) => a[1] - b[1]);
-    let arrowCnt = 1;
-    let arrowPos = points[0][1];
-    for(const [s, e] of points.slice(1)) {
-        if(arrowPos < s  || e < arrowPos) {
-            arrowPos = e;
-            arrowCnt += 1;
-        } 
+    points.sort((a, b) => a[0] - b[0]);
+
+    const stack = [points[0]];
+    for(let i = 1; i < points.length; i++) {
+        const [start, end] = points[i];
+        const minEnd = stack.at(-1)[1];
+        if(minEnd >= start) {
+            stack.pop();
+            stack.push([start, Math.min(minEnd, end)])
+        } else stack.push([start, end]);
     }
 
-    return arrowCnt;
+    return stack.length;
 };
