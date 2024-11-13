@@ -6,40 +6,39 @@
  */
 var calcEquation = function(equations, values, queries) {
     const adj = {};
-    equations.forEach(([from, to], i) => {
-        if (!(from in adj)) adj[from] = [];
-        adj[from].push([to, values[i]]);
-
-        if (!(to in adj)) adj[to] = [];
-        adj[to].push([from, 1 / values[i]]);
-    });
+    for(let i = 0; i < values.length; i++) {
+        const [v1, v2] = equations[i];
+        const val = values[i];
+        if(adj.hasOwnProperty(v1)) adj[v1].push([v2, val]);
+        else adj[v1] = [[v2, val]];
+        if(adj.hasOwnProperty(v2)) adj[v2].push([v1, 1 / val]);
+        else adj[v2] = [[v1, 1 / val]];
+    }
     
-    const bfs = (start, target) => {
-        if (!(start in adj) || !(target in adj)) return -1;
-        if (start === target) return 1;
+    const ans = [];
 
-        const visited = [start];
+    const dfs = (start, end) => {
         const needVisit = [[start, 1]];
+        const visited = new Set();
+        visited.add(start);
         while(needVisit.length) {
-            const [node, weightSum] = needVisit.shift();
-            
-            for (const [to, weight] of adj[node]) {
-                if(!visited.includes(to)) {
-                    const currentWeight = weightSum * weight;
-                    if(to === target) return currentWeight;
-                    needVisit.push([to, currentWeight]);
-                    visited.push(to);
+            const [node, weights] = needVisit.pop();
+            for(const [next, val] of adj[node]) {
+                if(!visited.has(next)) {
+                    if(next === end) return weights * val;
+                    needVisit.push([next, weights * val]);
+                    visited.add(next);
                 }
             }
         }
         return -1;
     }
-    
-    const ans = [];
-    for(const [from, to] of queries) {
-        ans.push(bfs(from, to));
-    }
+
+    queries.forEach(([start, end]) => {
+        if(!adj.hasOwnProperty(start) || !adj.hasOwnProperty(end)) return ans.push(-1);
+        if(start === end) return ans.push(1);
+        ans.push(dfs(start, end));
+    })
 
     return ans;
 };
-
