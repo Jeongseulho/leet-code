@@ -4,7 +4,7 @@
  */
 var snakesAndLadders = function(board) {
     const n = board.length;
-    
+
     const transNumToPos = (num) => {
         const row = Math.floor((num - 1) / n);
         const col = (num - 1) % n;
@@ -16,21 +16,16 @@ var snakesAndLadders = function(board) {
     const needVisit = [[1, 0]];
     const visited = new Set();
     visited.add(1);
-
-    while (needVisit.length > 0) {
+    while(needVisit.length) {
         const [cur, cnt] = needVisit.shift();
-
-        for (let dice = 1; dice <= 6; dice++) {
+        for(let dice = 1; dice < 7; dice++) {
             let next = cur + dice;
-
-            const [ni, nj] = transNumToPos(next);
-            if (board[ni][nj] !== -1) next = board[ni][nj];
-
-            if (next >= n * n) return cnt + 1;
-
-            if (!visited.has(next)) {
-                visited.add(next);
+            if(!visited.has(next)) {
+                const [ni, nj] = transNumToPos(next, n);
+                if(board[ni][nj] !== -1) next = board[ni][nj];
+                if(next >= n**2) return cnt + 1;
                 needVisit.push([next, cnt + 1]);
+                visited.add(next); 
             }
         }
     }
