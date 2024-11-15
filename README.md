@@ -154,6 +154,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0739-daily-temperatures](https://github.com/Jeongseulho/leet-code/tree/master/0739-daily-temperatures) |
 | [0747-min-cost-climbing-stairs](https://github.com/Jeongseulho/leet-code/tree/master/0747-min-cost-climbing-stairs) |
 | [0907-koko-eating-bananas](https://github.com/Jeongseulho/leet-code/tree/master/0907-koko-eating-bananas) |
+| [0945-snakes-and-ladders](https://github.com/Jeongseulho/leet-code/tree/master/0945-snakes-and-ladders) |
 | [1036-rotting-oranges](https://github.com/Jeongseulho/leet-code/tree/master/1036-rotting-oranges) |
 | [1046-max-consecutive-ones-iii](https://github.com/Jeongseulho/leet-code/tree/master/1046-max-consecutive-ones-iii) |
 | [1319-unique-number-of-occurrences](https://github.com/Jeongseulho/leet-code/tree/master/1319-unique-number-of-occurrences) |
@@ -324,6 +325,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0130-surrounded-regions](https://github.com/Jeongseulho/leet-code/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/Jeongseulho/leet-code/tree/master/0200-number-of-islands) |
 | [0289-game-of-life](https://github.com/Jeongseulho/leet-code/tree/master/0289-game-of-life) |
+| [0945-snakes-and-ladders](https://github.com/Jeongseulho/leet-code/tree/master/0945-snakes-and-ladders) |
 | [1036-rotting-oranges](https://github.com/Jeongseulho/leet-code/tree/master/1036-rotting-oranges) |
 | [2038-nearest-exit-from-entrance-in-maze](https://github.com/Jeongseulho/leet-code/tree/master/2038-nearest-exit-from-entrance-in-maze) |
 | [2428-equal-row-and-column-pairs](https://github.com/Jeongseulho/leet-code/tree/master/2428-equal-row-and-column-pairs) |
@@ -436,6 +438,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0399-evaluate-division](https://github.com/Jeongseulho/leet-code/tree/master/0399-evaluate-division) |
 | [0547-number-of-provinces](https://github.com/Jeongseulho/leet-code/tree/master/0547-number-of-provinces) |
 | [0871-keys-and-rooms](https://github.com/Jeongseulho/leet-code/tree/master/0871-keys-and-rooms) |
+| [0945-snakes-and-ladders](https://github.com/Jeongseulho/leet-code/tree/master/0945-snakes-and-ladders) |
 | [1036-rotting-oranges](https://github.com/Jeongseulho/leet-code/tree/master/1036-rotting-oranges) |
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/Jeongseulho/leet-code/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/Jeongseulho/leet-code/tree/master/1544-count-good-nodes-in-binary-tree) |
