@@ -57,6 +57,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0392-is-subsequence](https://github.com/Jeongseulho/leet-code/tree/master/0392-is-subsequence) |
 | [0394-decode-string](https://github.com/Jeongseulho/leet-code/tree/master/0394-decode-string) |
 | [0399-evaluate-division](https://github.com/Jeongseulho/leet-code/tree/master/0399-evaluate-division) |
+| [0433-minimum-genetic-mutation](https://github.com/Jeongseulho/leet-code/tree/master/0433-minimum-genetic-mutation) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/Jeongseulho/leet-code/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0443-string-compression](https://github.com/Jeongseulho/leet-code/tree/master/0443-string-compression) |
 | [0649-dota2-senate](https://github.com/Jeongseulho/leet-code/tree/master/0649-dota2-senate) |
@@ -251,6 +252,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0242-valid-anagram](https://github.com/Jeongseulho/leet-code/tree/master/0242-valid-anagram) |
 | [0290-word-pattern](https://github.com/Jeongseulho/leet-code/tree/master/0290-word-pattern) |
 | [0383-ransom-note](https://github.com/Jeongseulho/leet-code/tree/master/0383-ransom-note) |
+| [0433-minimum-genetic-mutation](https://github.com/Jeongseulho/leet-code/tree/master/0433-minimum-genetic-mutation) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/Jeongseulho/leet-code/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0560-subarray-sum-equals-k](https://github.com/Jeongseulho/leet-code/tree/master/0560-subarray-sum-equals-k) |
 | [0768-partition-labels](https://github.com/Jeongseulho/leet-code/tree/master/0768-partition-labels) |
@@ -436,6 +438,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0279-perfect-squares](https://github.com/Jeongseulho/leet-code/tree/master/0279-perfect-squares) |
 | [0322-coin-change](https://github.com/Jeongseulho/leet-code/tree/master/0322-coin-change) |
 | [0399-evaluate-division](https://github.com/Jeongseulho/leet-code/tree/master/0399-evaluate-division) |
+| [0433-minimum-genetic-mutation](https://github.com/Jeongseulho/leet-code/tree/master/0433-minimum-genetic-mutation) |
 | [0547-number-of-provinces](https://github.com/Jeongseulho/leet-code/tree/master/0547-number-of-provinces) |
 | [0871-keys-and-rooms](https://github.com/Jeongseulho/leet-code/tree/master/0871-keys-and-rooms) |
 | [0945-snakes-and-ladders](https://github.com/Jeongseulho/leet-code/tree/master/0945-snakes-and-ladders) |
