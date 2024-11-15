@@ -17,7 +17,7 @@ var snakesAndLadders = function(board) {
     const visited = new Set();
     visited.add(1);
 
-    while (needVisit.length > 0) {
+    while (needVisit.length) {
         const [cur, cnt] = needVisit.shift();
 
         for (let dice = 1; dice <= 6; dice++) {
