@@ -3,9 +3,13 @@
  * @return {number}
  */
 var majorityElement = function(nums) {
-    const numCnt = {};
+    let cnt = 0;
+    let major = 0;
     for(const num of nums) {
-        numCnt[num] = 1 + (numCnt[num] || 0);
-        if(numCnt[num] > (nums.length / 2)) return num;
+        if(cnt === 0) major = num;
+        if(major === num) cnt += 1;
+        else cnt -= 1;
     }
+
+    return major;
 };
