@@ -4,8 +4,15 @@
  */
 var maxProfit = function(prices) {
     let profit = 0;
-    for(let i = 0; i < prices.length - 1; i++) {
-        if(prices[i] < prices[i + 1]) profit += prices[i + 1] - prices[i];
+    const stack = [prices[0]];
+    for(let i = 1; i < prices.length; i++) {
+        const price = prices[i];
+        const buyPrice = stack[stack.length - 1];
+        if(buyPrice > price) stack.push(price);
+        else {
+            profit += price - buyPrice;
+            stack.push(price);
+        }
     }
 
     return profit;
