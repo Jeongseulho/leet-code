@@ -3,19 +3,12 @@
  * @return {boolean}
  */
 var canJump = function(nums) {
-    if(nums.length === 1) return true;
-    let last = nums.length - 1;
-    
-    while(last !== 0) {
-        let jump = 1;
-        for(let i = last - 1; i > -1; i--) {
-            if(nums[i] >= jump) {
-                last = i;
-                break;
-            }
-            jump += 1;
-            if(i === 0) return false;
-        }
+    let target = nums.length - 1;
+
+    for(let i = nums.length - 2; i > -1; i--) {
+        const jumpIdx = i + nums[i];
+        if(target <= jumpIdx) target = i;
     }
-    return true;
+
+    return target === 0;
 };
