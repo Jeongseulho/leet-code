@@ -86,6 +86,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0189-rotate-array](https://github.com/Jeongseulho/leet-code/tree/master/0189-rotate-array) |
 | [0202-happy-number](https://github.com/Jeongseulho/leet-code/tree/master/0202-happy-number) |
 | [0279-perfect-squares](https://github.com/Jeongseulho/leet-code/tree/master/0279-perfect-squares) |
+| [0380-insert-delete-getrandom-o1](https://github.com/Jeongseulho/leet-code/tree/master/0380-insert-delete-getrandom-o1) |
 | [1146-greatest-common-divisor-of-strings](https://github.com/Jeongseulho/leet-code/tree/master/1146-greatest-common-divisor-of-strings) |
 | [1236-n-th-tribonacci-number](https://github.com/Jeongseulho/leet-code/tree/master/1236-n-th-tribonacci-number) |
 ## Array
@@ -150,6 +151,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0300-longest-increasing-subsequence](https://github.com/Jeongseulho/leet-code/tree/master/0300-longest-increasing-subsequence) |
 | [0322-coin-change](https://github.com/Jeongseulho/leet-code/tree/master/0322-coin-change) |
 | [0334-increasing-triplet-subsequence](https://github.com/Jeongseulho/leet-code/tree/master/0334-increasing-triplet-subsequence) |
+| [0380-insert-delete-getrandom-o1](https://github.com/Jeongseulho/leet-code/tree/master/0380-insert-delete-getrandom-o1) |
 | [0399-evaluate-division](https://github.com/Jeongseulho/leet-code/tree/master/0399-evaluate-division) |
 | [0416-partition-equal-subset-sum](https://github.com/Jeongseulho/leet-code/tree/master/0416-partition-equal-subset-sum) |
 | [0435-non-overlapping-intervals](https://github.com/Jeongseulho/leet-code/tree/master/0435-non-overlapping-intervals) |
@@ -259,6 +261,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0219-contains-duplicate-ii](https://github.com/Jeongseulho/leet-code/tree/master/0219-contains-duplicate-ii) |
 | [0242-valid-anagram](https://github.com/Jeongseulho/leet-code/tree/master/0242-valid-anagram) |
 | [0290-word-pattern](https://github.com/Jeongseulho/leet-code/tree/master/0290-word-pattern) |
+| [0380-insert-delete-getrandom-o1](https://github.com/Jeongseulho/leet-code/tree/master/0380-insert-delete-getrandom-o1) |
 | [0383-ransom-note](https://github.com/Jeongseulho/leet-code/tree/master/0383-ransom-note) |
 | [0433-minimum-genetic-mutation](https://github.com/Jeongseulho/leet-code/tree/master/0433-minimum-genetic-mutation) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/Jeongseulho/leet-code/tree/master/0438-find-all-anagrams-in-a-string) |
@@ -535,6 +538,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0208-implement-trie-prefix-tree](https://github.com/Jeongseulho/leet-code/tree/master/0208-implement-trie-prefix-tree) |
+| [0380-insert-delete-getrandom-o1](https://github.com/Jeongseulho/leet-code/tree/master/0380-insert-delete-getrandom-o1) |
 | [0937-online-stock-span](https://github.com/Jeongseulho/leet-code/tree/master/0937-online-stock-span) |
 | [2413-smallest-number-in-infinite-set](https://github.com/Jeongseulho/leet-code/tree/master/2413-smallest-number-in-infinite-set) |
 ## Interactive
@@ -600,4 +604,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/Jeongseulho/leet-code/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+## Randomized
+|  |
+| ------- |
+| [0380-insert-delete-getrandom-o1](https://github.com/Jeongseulho/leet-code/tree/master/0380-insert-delete-getrandom-o1) |
 <!---LeetCode Topics End-->
