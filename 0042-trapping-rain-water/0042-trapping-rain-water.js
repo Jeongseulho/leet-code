@@ -4,21 +4,25 @@
  */
 var trap = function(height) {
     let water = 0;
-    const stack = [];
+    let l = 0;
+    let r = height.length - 1;
+    let maxL = 0;
+    let maxR = 0;
 
-    for(let i = 0; i < height.length; i++) {
-        while(stack.length && (height[stack.at(-1)] < height[i])) {
-            const lastI = stack.pop();
-            if(!stack.length) break;
+    while(l !== r) {
+        let leftH = height[l];
+        let rightH = height[r];
+        maxL = Math.max(maxL, leftH);
+        maxR = Math.max(maxR, rightH);
 
-            const prevPeekI = stack.at(-1);
-            if(prevPeekI === lastI) continue;
-
-            const x = i - prevPeekI - 1;
-            const y = Math.min(height[i], height[prevPeekI]) - height[lastI];
-            water += x * y;
+        if(leftH < maxL) {
+            water += maxL - leftH;
         }
-        stack.push(i);
+        if(rightH < maxR) {
+            water += maxR - rightH;
+        }
+
+        height[l] < height[r] ? l++ : r--;
     }
 
     return water;
