@@ -11,12 +11,13 @@ var romanToInt = function(s) {
         C : 100,
         D : 500,
         M : 1000,
-    }
-
+    };
     let num = 0;
     for(let i = 0; i < s.length - 1; i++) {
-        if(hash[s[i]] < hash[s[i + 1]]) num -= hash[s[i]];
-        else num += hash[s[i]];
+        let cur = hash[s[i]];
+        let next = hash[s[i + 1]]
+        if(cur < next) num -= cur;
+        else num += cur;
     }
 
     return num + hash[s[s.length - 1]];
