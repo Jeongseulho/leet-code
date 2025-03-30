@@ -47,6 +47,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0049-group-anagrams](https://github.com/Jeongseulho/leet-code/tree/master/0049-group-anagrams) |
 | [0058-length-of-last-word](https://github.com/Jeongseulho/leet-code/tree/master/0058-length-of-last-word) |
 | [0067-add-binary](https://github.com/Jeongseulho/leet-code/tree/master/0067-add-binary) |
+| [0068-text-justification](https://github.com/Jeongseulho/leet-code/tree/master/0068-text-justification) |
 | [0071-simplify-path](https://github.com/Jeongseulho/leet-code/tree/master/0071-simplify-path) |
 | [0072-edit-distance](https://github.com/Jeongseulho/leet-code/tree/master/0072-edit-distance) |
 | [0079-word-search](https://github.com/Jeongseulho/leet-code/tree/master/0079-word-search) |
@@ -116,6 +117,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0056-merge-intervals](https://github.com/Jeongseulho/leet-code/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/Jeongseulho/leet-code/tree/master/0057-insert-interval) |
 | [0064-minimum-path-sum](https://github.com/Jeongseulho/leet-code/tree/master/0064-minimum-path-sum) |
+| [0068-text-justification](https://github.com/Jeongseulho/leet-code/tree/master/0068-text-justification) |
 | [0073-set-matrix-zeroes](https://github.com/Jeongseulho/leet-code/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/Jeongseulho/leet-code/tree/master/0074-search-a-2d-matrix) |
 | [0078-subsets](https://github.com/Jeongseulho/leet-code/tree/master/0078-subsets) |
@@ -353,6 +355,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0054-spiral-matrix](https://github.com/Jeongseulho/leet-code/tree/master/0054-spiral-matrix) |
 | [0067-add-binary](https://github.com/Jeongseulho/leet-code/tree/master/0067-add-binary) |
+| [0068-text-justification](https://github.com/Jeongseulho/leet-code/tree/master/0068-text-justification) |
 | [0289-game-of-life](https://github.com/Jeongseulho/leet-code/tree/master/0289-game-of-life) |
 | [0735-asteroid-collision](https://github.com/Jeongseulho/leet-code/tree/master/0735-asteroid-collision) |
 | [2428-equal-row-and-column-pairs](https://github.com/Jeongseulho/leet-code/tree/master/2428-equal-row-and-column-pairs) |
