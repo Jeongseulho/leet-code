@@ -15,6 +15,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0042-trapping-rain-water](https://github.com/Jeongseulho/leet-code/tree/master/0042-trapping-rain-water) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/Jeongseulho/leet-code/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0088-merge-sorted-array](https://github.com/Jeongseulho/leet-code/tree/master/0088-merge-sorted-array) |
+| [0125-valid-palindrome](https://github.com/Jeongseulho/leet-code/tree/master/0125-valid-palindrome) |
 | [0151-reverse-words-in-a-string](https://github.com/Jeongseulho/leet-code/tree/master/0151-reverse-words-in-a-string) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Jeongseulho/leet-code/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0189-rotate-array](https://github.com/Jeongseulho/leet-code/tree/master/0189-rotate-array) |
@@ -51,6 +52,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0071-simplify-path](https://github.com/Jeongseulho/leet-code/tree/master/0071-simplify-path) |
 | [0072-edit-distance](https://github.com/Jeongseulho/leet-code/tree/master/0072-edit-distance) |
 | [0079-word-search](https://github.com/Jeongseulho/leet-code/tree/master/0079-word-search) |
+| [0125-valid-palindrome](https://github.com/Jeongseulho/leet-code/tree/master/0125-valid-palindrome) |
 | [0131-palindrome-partitioning](https://github.com/Jeongseulho/leet-code/tree/master/0131-palindrome-partitioning) |
 | [0139-word-break](https://github.com/Jeongseulho/leet-code/tree/master/0139-word-break) |
 | [0151-reverse-words-in-a-string](https://github.com/Jeongseulho/leet-code/tree/master/0151-reverse-words-in-a-string) |
