@@ -4,21 +4,21 @@
  */
 var threeSum = function(nums) {
     nums.sort((a, b) => a - b);
-    const ans = [];
+    const ans = new Set();
+
     for(let i = 0; i < nums.length - 2; i++) {
-        if(i > 0 && nums[i] === nums[i - 1]) continue;
-        left = i + 1;
-        right = nums.length - 1;
-        while(left < right) {
-            if(nums[i] + nums[left] + nums[right] === 0) {
-                ans.push([nums[i], nums[left], nums[right]]);
-                left += 1;
-                while(left < right && nums[left] === nums[left - 1]) left += 1;
-            }
-            else if(nums[i] + nums[left] + nums[right] < 0) left += 1;
-            else right -= 1;
+        let s = i + 1;
+        let e = nums.length - 1;
+
+        while(s !== e) {
+            const sum = nums[i] + nums[s] + nums[e];
+            if(sum === 0) {
+                ans.add(JSON.stringify([nums[i], nums[s], nums[e]]));
+                s++;
+            } else if(sum > 0) e--;
+            else if(sum < 0) s++;
         }
     }
 
-    return ans;
+    return Array.from(ans).map((str) => JSON.parse(str));
 };
