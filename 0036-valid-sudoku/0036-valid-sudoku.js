@@ -4,31 +4,31 @@
  */
 var isValidSudoku = function(board) {
     for(let i = 0; i < 9; i++) {
-        const nums = new Set();
+        const row = new Set();
         for(let j = 0; j < 9; j++) {
             if(board[i][j] === '.') continue;
-            if(nums.has(board[i][j])) return false;
-            nums.add(board[i][j]);
+            if(row.has(board[i][j])) return false;
+            row.add(board[i][j]);
         }
     }
 
     for(let j = 0; j < 9; j++) {
-        const nums = new Set();
+        const col = new Set();
         for(let i = 0; i < 9; i++) {
             if(board[i][j] === '.') continue;
-            if(nums.has(board[i][j])) return false;
-            nums.add(board[i][j]);
+            if(col.has(board[i][j])) return false;
+            col.add(board[i][j]);
         }
     }
 
-    for(let i = 0; i < 9; i += 3) {
-        for(let j = 0; j < 9; j += 3) {
-            const nums = new Set();
-            for(let di = 0; di < 3; di++){
-                for(let dj = 0; dj < 3; dj++) {
-                    if(board[i + di][j + dj] === '.') continue;
-                    if(nums.has(board[i + di][j + dj])) return false;
-                    nums.add(board[i + di][j + dj]);
+    for(let k = 0; k < 9; k += 3) {
+        for(let l = 0; l < 9; l += 3) {
+            const box = new Set();
+            for(let i = k; i < k + 3; i++) {
+                for(let j = l; j < l + 3; j++) {
+                    if(board[i][j] === '.') continue;
+                    if(box.has(board[i][j])) return false;
+                    box.add(board[i][j]);
                 }
             }
         }
