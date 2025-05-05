@@ -4,16 +4,15 @@
  * @return {boolean}
  */
 var canConstruct = function(ransomNote, magazine) {
-    const letterCnt = {};
-    for(const letter of magazine) {
-        if(letter in letterCnt) letterCnt[letter] += 1;
-        else letterCnt[letter] = 1;
+    const letter = {};
+    for(const m of magazine) {
+        letter[m] = (letter[m] || 0) + 1;
     }
 
-    for(const letter of ransomNote) {
-        if(letter in letterCnt && letterCnt[letter] > 0) letterCnt[letter] -= 1;
+    for(const r of ransomNote) {
+        if(letter[r]) letter[r] -= 1;
         else return false;
     }
-    
+
     return true;
 };
