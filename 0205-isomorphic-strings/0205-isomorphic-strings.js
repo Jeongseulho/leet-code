@@ -5,13 +5,16 @@
  */
 var isIsomorphic = function(s, t) {
     const map = {};
-    const reverseMap = {};
+    const revMap = {};
+
     for(let i = 0; i < s.length; i++) {
-        if(map.hasOwnProperty(s[i]) || reverseMap.hasOwnProperty(t[i])) {
-            if(map[s[i]] !== t[i]) return false;
+        const sl = s[i];
+        const tl = t[i];
+        if(map[sl] || revMap[tl]) {
+            if(map[sl] !== tl) return false;
         } else {
-            map[s[i]] = t[i];
-            reverseMap[t[i]] = s[i];
+            map[sl] = tl;
+            revMap[tl] = sl;
         }
     }
 
