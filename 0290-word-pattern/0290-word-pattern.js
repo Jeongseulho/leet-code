@@ -4,17 +4,22 @@
  * @return {boolean}
  */
 var wordPattern = function(pattern, s) {
-    const map = {};
-    const reverseMap = {};
     s = s.split(' ');
-    if(s.length !== pattern.length) return false;
+    if (s.length !== pattern.length) return false;
 
-    for(let i = 0; i < pattern.length; i++) {
-        if(map.hasOwnProperty(pattern[i]) || reverseMap.hasOwnProperty(s[i])) {
-            if(map[pattern[i]] !== s[i]) return false;
+    const map = new Map();
+    const revMap = new Map();
+
+    for (let i = 0; i < s.length; i++) {
+        const p = pattern[i];
+        const word = s[i];
+
+        if (map.has(p)) {
+            if (map.get(p) !== word) return false;
         } else {
-            map[pattern[i]] = s[i];
-            reverseMap[s[i]] = pattern[i];
+            if (revMap.has(word)) return false;
+            map.set(p, word);
+            revMap.set(word, p);
         }
     }
 
