@@ -5,14 +5,15 @@
  */
 var isAnagram = function(s, t) {
     if(s.length !== t.length) return false;
-    const hash = {};
+    const map = {};
     for(const letter of s) {
-        if(hash.hasOwnProperty(letter)) hash[letter] += 1;
-        else hash[letter] = 1;
+        map[letter] = (map[letter] || 0) + 1;
     }
+
     for(const letter of t) {
-        if(hash.hasOwnProperty(letter) && hash[letter] > 0) hash[letter] -= 1;
-        else return false;
+        if(!map.hasOwnProperty(letter) || map[letter] === 0) return false;
+        map[letter] -= 1;
     }
+
     return true;
 };
