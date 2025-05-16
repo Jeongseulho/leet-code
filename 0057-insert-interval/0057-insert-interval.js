@@ -4,19 +4,18 @@
  * @return {number[][]}
  */
 var insert = function(intervals, newInterval) {
-    intervals.push(newInterval);
-    intervals.sort((a, b) => a[0] - b[0]);
-
-    const res = [intervals[0]];
-
-    for (let i = 1; i < intervals.length; i++) {
-        const [prevStart, prevEnd] = res.at(-1);
-        const [start, end] = intervals[i];
-        if (prevEnd >= start) {
-            res.pop();
-            res.push([prevStart, Math.max(prevEnd,end)]);
-        } else res.push(intervals[i]);
+    const beforeNewInterval = [];
+    const n = intervals.length;
+    let i = 0;
+    while(i < n && intervals[i][1] < newInterval[0]) {
+        beforeNewInterval.push(intervals[i]);
+        i++;
+    }
+    while(i < n && newInterval[1] >= intervals[i][0]) {
+        newInterval[0] = Math.min(newInterval[0], intervals[i][0]);
+        newInterval[1] = Math.max(newInterval[1], intervals[i][1]);
+        i++;
     }
 
-    return res;    
+    return [...beforeNewInterval, newInterval, ...intervals.slice(i)];
 };
