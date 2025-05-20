@@ -9,12 +9,11 @@ var isValid = function(s) {
         else {
             if(!stack.length) return false;
             const last = stack.pop();
-            if((str === ')' && !(last === '('))
-            || (str === '}' && !(last === '{'))
-            || (str === ']' && !(last === '['))
-            ) return false;
+            if(str === ')' && last !== '(') return false;
+            if(str === '}' && last !== '{') return false; 
+            if(str === ']' && last !== '[') return false;
         }
     }
 
-    return stack.length ? false : true;
+    return !stack.length
 };
