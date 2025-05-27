@@ -60,6 +60,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0151-reverse-words-in-a-string](https://github.com/Jeongseulho/leet-code/tree/master/0151-reverse-words-in-a-string) |
 | [0205-isomorphic-strings](https://github.com/Jeongseulho/leet-code/tree/master/0205-isomorphic-strings) |
 | [0208-implement-trie-prefix-tree](https://github.com/Jeongseulho/leet-code/tree/master/0208-implement-trie-prefix-tree) |
+| [0224-basic-calculator](https://github.com/Jeongseulho/leet-code/tree/master/0224-basic-calculator) |
 | [0242-valid-anagram](https://github.com/Jeongseulho/leet-code/tree/master/0242-valid-anagram) |
 | [0290-word-pattern](https://github.com/Jeongseulho/leet-code/tree/master/0290-word-pattern) |
 | [0345-reverse-vowels-of-a-string](https://github.com/Jeongseulho/leet-code/tree/master/0345-reverse-vowels-of-a-string) |
@@ -91,6 +92,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0150-evaluate-reverse-polish-notation](https://github.com/Jeongseulho/leet-code/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0189-rotate-array](https://github.com/Jeongseulho/leet-code/tree/master/0189-rotate-array) |
 | [0202-happy-number](https://github.com/Jeongseulho/leet-code/tree/master/0202-happy-number) |
+| [0224-basic-calculator](https://github.com/Jeongseulho/leet-code/tree/master/0224-basic-calculator) |
 | [0279-perfect-squares](https://github.com/Jeongseulho/leet-code/tree/master/0279-perfect-squares) |
 | [0380-insert-delete-getrandom-o1](https://github.com/Jeongseulho/leet-code/tree/master/0380-insert-delete-getrandom-o1) |
 | [1146-greatest-common-divisor-of-strings](https://github.com/Jeongseulho/leet-code/tree/master/1146-greatest-common-divisor-of-strings) |
@@ -380,6 +382,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/Jeongseulho/leet-code/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/Jeongseulho/leet-code/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0155-min-stack](https://github.com/Jeongseulho/leet-code/tree/master/0155-min-stack) |
+| [0224-basic-calculator](https://github.com/Jeongseulho/leet-code/tree/master/0224-basic-calculator) |
 | [0394-decode-string](https://github.com/Jeongseulho/leet-code/tree/master/0394-decode-string) |
 | [0735-asteroid-collision](https://github.com/Jeongseulho/leet-code/tree/master/0735-asteroid-collision) |
 | [0739-daily-temperatures](https://github.com/Jeongseulho/leet-code/tree/master/0739-daily-temperatures) |
@@ -390,6 +393,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0206-reverse-linked-list](https://github.com/Jeongseulho/leet-code/tree/master/0206-reverse-linked-list) |
+| [0224-basic-calculator](https://github.com/Jeongseulho/leet-code/tree/master/0224-basic-calculator) |
 | [0394-decode-string](https://github.com/Jeongseulho/leet-code/tree/master/0394-decode-string) |
 ## Queue
 |  |
