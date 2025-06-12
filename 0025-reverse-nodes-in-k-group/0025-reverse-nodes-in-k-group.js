@@ -11,25 +11,29 @@
  * @return {ListNode}
  */
 var reverseKGroup = function(head, k) {
-    let dummy = new ListNode(0, head);
-    let prevGroupEnd = dummy, cur = head;
+    const dummy = new ListNode(0, head);
+    let prevGroupEnd = dummy;
+    let cur = head;
 
     while(true) {
-        let groupEnd = cur, count = 0;
-        while (count < k && groupEnd) {
-            groupEnd = groupEnd.next;
-            count++;
-        }
-        if (count < k) break;
 
-        let prev = groupEnd, groupStart = cur;
-        for (let i = 0; i < k; i++) {
-            let next = cur.next;
+        let cnt = 0;
+        let nextGroupStart = cur;
+        while(nextGroupStart && cnt < k) {
+            cnt += 1;
+            nextGroupStart = nextGroupStart.next;
+        }
+        if(cnt < k) return dummy.next;
+
+        const groupStart = cur;
+
+        let prev = nextGroupStart;
+        for(let i = 0; i < k; i++) {
+            const next = cur.next;
             cur.next = prev;
             prev = cur;
             cur = next;
         }
-
         prevGroupEnd.next = prev;
         prevGroupEnd = groupStart;
     }
