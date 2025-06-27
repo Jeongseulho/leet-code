@@ -11,15 +11,13 @@
  * @return {boolean}
  */
 var isSymmetric = function(root) {
-    if (!root) return true;
-    
-    const validate = (node1, node2) => {
-        if (!node1 && !node2) return true;
-        if (!node1 || !node2) return false;
-        if (node1.val !== node2.val) return false;
+    const check = (left, right) => {
+        if (!left && !right) return true;
+        if (!left || !right) return false;
+        if (left.val !== right.val) return false;
 
-        return validate(node1.left, node2.right) && validate(node1.right, node2.left);
-    };
+        return check(left.left, right.right) && check(left.right, right.left);
+    }
 
-    return validate(root.left, root.right);
+    return check(root.left, root.right);
 };
