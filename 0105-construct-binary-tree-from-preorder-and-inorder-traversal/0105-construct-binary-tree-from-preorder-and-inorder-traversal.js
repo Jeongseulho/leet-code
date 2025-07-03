@@ -12,15 +12,15 @@
  * @return {TreeNode}
  */
 var buildTree = function(preorder, inorder) {
-    if (inorder.length === 0) return null;
-    
-    const rootVal = preorder.shift();
-    const root = new TreeNode(rootVal);
-    
-    const rootIndex = inorder.indexOf(rootVal);
-    
-    root.left = buildTree(preorder, inorder.slice(0, rootIndex));
-    root.right = buildTree(preorder, inorder.slice(rootIndex + 1));
-    
-    return root;
+    if(inorder.length === 0) return null;
+
+    const headVal = preorder.shift();
+    const head = new TreeNode(headVal);
+
+    const headIndex = inorder.indexOf(headVal);
+
+    head.left = buildTree(preorder, inorder.slice(0, headIndex));
+    head.right = buildTree(preorder, inorder.slice(headIndex + 1));
+
+    return head;
 };
