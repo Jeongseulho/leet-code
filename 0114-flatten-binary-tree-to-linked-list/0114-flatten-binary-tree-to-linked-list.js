@@ -19,5 +19,5 @@ var flatten = function(root) {
         node.right = prev;
         prev = node;
     }
-    if(root) revPreOrder(root);
+    return root ? revPreOrder(root) : root
 };
