@@ -14,9 +14,9 @@
 var lowestCommonAncestor = function(root, p, q) {
     if(!root) return;
     if(root === p || root === q) return root;
-    const rightSub = lowestCommonAncestor(root.right, p, q);
-    const leftSub = lowestCommonAncestor(root.left, p, q);
+    const isInLeftSubTree = lowestCommonAncestor(root.left, p, q);
+    const isInRightSubTree = lowestCommonAncestor(root.right, p, q);
 
-    if(rightSub && leftSub) return root;
-    return rightSub || leftSub;
+    if(isInLeftSubTree && isInRightSubTree) return root;
+    return isInLeftSubTree || isInRightSubTree;
 };
