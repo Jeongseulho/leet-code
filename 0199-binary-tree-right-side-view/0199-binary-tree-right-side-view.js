@@ -11,17 +11,18 @@
  * @return {number[]}
  */
 var rightSideView = function(root) {
-    const ans = {};
+    const ans = [];
 
-    const dfs = (node, depth) => {
+    const dfs = (node, level) => {
         if(!node) return;
+        if(ans.length < level) ans.push(node.val);
+        else ans[level - 1] = node.val;
 
-        ans[depth] = node.val;
-        if(node.left) dfs(node.left, depth + 1);
-        if(node.right) dfs(node.right, depth + 1);
+        dfs(node.left, level + 1);
+        dfs(node.right, level + 1);
     }
 
-    if(root) dfs(root, 0);
+    dfs(root, 1);
 
-    return Object.values(ans);
+    return ans;
 };
