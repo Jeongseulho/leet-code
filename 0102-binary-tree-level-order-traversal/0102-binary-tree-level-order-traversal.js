@@ -11,19 +11,18 @@
  * @return {number[][]}
  */
 var levelOrder = function(root) {
-    const ans = {};
+    if(!root) return [];
+    const nodePerLevel = [];
+    const needVisit = [[ root, 1 ]];
+    while (needVisit.length) {
+        const [ node, level ] = needVisit.shift();
 
-    const traversal = (node, level) => {
-        if(!node) return;
+        if(nodePerLevel.length < level) nodePerLevel.push([ node.val ]);
+        else nodePerLevel[level - 1].push(node.val);
 
-        if(level in ans) ans[level].push(node.val);
-        else ans[level] = [node.val];
+        if(node.left) needVisit.push([ node.left, level + 1 ]);
+        if(node.right) needVisit.push([ node.right, level + 1 ]);
+    }
 
-        traversal(node.left, level + 1);
-        traversal(node.right, level + 1);
-    };
-
-    traversal(root, 0);
-
-    return Object.values(ans);
+    return nodePerLevel;
 };
