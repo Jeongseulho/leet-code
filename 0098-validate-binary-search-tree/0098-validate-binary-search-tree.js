@@ -11,15 +11,21 @@
  * @return {boolean}
  */
 var isValidBST = function(root) {
-
-    const validate = (node, low, high) => {
-        if (!node) return true;
-
-        if (node.val <= low || node.val >= high) return false;
-
-        return validate(node.left, low, node.val) && 
-               validate(node.right, node.val, high);
+    let isValid = true;
+    let preVal = -Infinity;
+    const inOrder = (node) => {
+        if(!node) return;
+        if(!isValid) return;
+        inOrder(node.left);
+        if(node.val <= preVal) {
+            isValid = false;
+            return;
+        }
+        preVal = node.val;
+        inOrder(node.right);
     }
 
-    return validate(root, -Infinity, Infinity);
+    inOrder(root);
+
+    return isValid;
 };
