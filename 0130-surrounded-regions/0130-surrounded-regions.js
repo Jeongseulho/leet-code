@@ -3,37 +3,38 @@
  * @return {void} Do not return anything, modify board in-place instead.
  */
 var solve = function(board) {
-    const di = [1, -1, 0, 0];
-    const dj = [0, 0, 1, -1];
     const m = board.length;
     const n = board[0].length;
-    const check = Array.from({ length : m }, () => Array(n).fill(false));
 
-    const dfs = (si, sj) => {
-        const needVisit = [[si, sj]];
-        const visit = [[si, sj]];
-        check[si][sj] = true;
-        let isSurround = true;
+    const dfs = (i, j) => {
+        if (i < 0 || i >= m || j < 0 || j >= n || board[i][j] !== 'O') {
+            return;
+        }
 
-        while(needVisit.length) {
-            const [ci, cj] = needVisit.pop();
-            for(let k = 0; k < 4; k++) {
-                ni = ci + di[k];
-                nj = cj + dj[k];
-                if(ni < 0 || ni >= m || nj < 0 || nj >= n) isSurround = false;
-                else if(!check[ni][nj] && board[ni][nj] === 'O') {
-                    check[ni][nj] = true;
-                    visit.push([ni, nj]);
-                    needVisit.push([ni, nj]);
-                }
+        board[i][j] = 'S';
+
+        dfs(i + 1, j);
+        dfs(i - 1, j);
+        dfs(i, j + 1);
+        dfs(i, j - 1);
+    };
+
+    for (let i = 0; i < m; i++) {
+        for (let j = 0; j < n; j++) {
+            if (board[i][j] === 'O' && (i === 0 || i === m - 1 || j === 0 || j === n - 1)) {
+                dfs(i, j);
             }
         }
-        if(isSurround) visit.forEach(([i, j]) => board[i][j] = 'X');
     }
 
-    for(let si = 0; si < m; si++) {
-        for(let sj = 0; sj < n; sj++) {
-            if(board[si][sj] === 'O' && !check[si][sj]) dfs(si, sj);
+    for (let i = 0; i < m; i++) {
+        for (let j = 0; j < n; j++) {
+            if (board[i][j] === 'S') {
+                board[i][j] = 'O';
+            }
+            else if (board[i][j] === 'O') {
+                board[i][j] = 'X';
+            }
         }
     }
 };
