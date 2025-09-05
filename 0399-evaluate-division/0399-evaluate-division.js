@@ -21,7 +21,6 @@ var calcEquation = function(equations, values, queries) {
         if(start === end) return 1;
         visited.add(start);
 
-        if(!adjList[start]) return -1;
         for (const [next, weight] of adjList[start]) {
             if(!visited.has(next)) {
                 const res = dfs(next, end, visited);
