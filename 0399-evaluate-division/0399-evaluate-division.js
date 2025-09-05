@@ -5,40 +5,41 @@
  * @return {number[]}
  */
 var calcEquation = function(equations, values, queries) {
-    const adj = {};
-    for(let i = 0; i < values.length; i++) {
-        const [v1, v2] = equations[i];
-        const val = values[i];
-        if(adj.hasOwnProperty(v1)) adj[v1].push([v2, val]);
-        else adj[v1] = [[v2, val]];
-        if(adj.hasOwnProperty(v2)) adj[v2].push([v1, 1 / val]);
-        else adj[v2] = [[v1, 1 / val]];
-    }
-    
-    const ans = [];
+    const adjList = {};
+    for(let i = 0; i < equations.length; i++) {
+        const [s, e] = equations[i];
+        const weight = values[i];
 
-    const dfs = (start, end) => {
-        const needVisit = [[start, 1]];
-        const visited = new Set();
+        if(adjList.hasOwnProperty(s)) adjList[s].push([e, weight]);
+        else adjList[s] = [[e, weight]];
+
+        if(adjList.hasOwnProperty(e)) adjList[e].push([s, 1/weight]);
+        else adjList[e] = [[s, 1/weight]];
+    }
+
+    const dfs = (start, end, visited) => {
+        if(start === end) return 1;
         visited.add(start);
-        while(needVisit.length) {
-            const [node, weights] = needVisit.pop();
-            for(const [next, val] of adj[node]) {
-                if(!visited.has(next)) {
-                    if(next === end) return weights * val;
-                    needVisit.push([next, weights * val]);
-                    visited.add(next);
-                }
+
+        if(!adjList[start]) return -1;
+        for (const [next, weight] of adjList[start]) {
+            if(!visited.has(next)) {
+                const res = dfs(next, end, visited);
+                if(res !== -1) return weight * res;
             }
-        }
+        } 
         return -1;
     }
 
-    queries.forEach(([start, end]) => {
-        if(!adj.hasOwnProperty(start) || !adj.hasOwnProperty(end)) return ans.push(-1);
-        if(start === end) return ans.push(1);
-        ans.push(dfs(start, end));
-    })
+    const ans = [];
+
+    for (const [s, e] of queries) {
+        if (!adjList[s] || !adjList[e]) {
+            ans.push(-1);
+        } else {
+            ans.push(dfs(s, e, new Set()));
+        }
+    }
 
     return ans;
 };
