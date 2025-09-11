@@ -5,27 +5,23 @@
  * @return {number}
  */
 var minMutation = function(startGene, endGene, bank) {
-
-    const isAdj = (v1, v2) => {
+    const adj = (gene1, gene2) => {
         let diffCnt = 0;
         for(let i = 0; i < 8; i++) {
-            if(v1[i] !== v2[i]) diffCnt += 1;
+            if (gene1[i] !== gene2[i]) diffCnt += 1;
+            if (diffCnt > 1) return false;
         }
-
-        return diffCnt === 1;
-    };
-
+        return true;
+    }
     const needVisit = [[startGene, 0]];
-    const visited = new Set();
-    visited.add(startGene);
-
-    while(needVisit.length) {
-        const [cur, cnt] = needVisit.shift();
-        for(const next of bank) {
-            if(!visited.has(next) && isAdj(cur, next)) {
-                if(next === endGene) return cnt + 1;
-                visited.add(next);
-                needVisit.push([next, cnt + 1]);
+    const visited = [startGene];
+    while (needVisit.length) {
+        const [gene, count] = needVisit.shift();
+        for (const geneOfBank of bank) {
+            if(!visited.includes(geneOfBank) && adj(gene, geneOfBank)) {
+                if(geneOfBank === endGene) return count + 1;
+                needVisit.push([geneOfBank, count + 1]);
+                visited.push(geneOfBank);
             }
         }
     }
