@@ -1,6 +1,6 @@
 
 var Trie = function() {
-    this.root = {};
+    this.trie = {};
 };
 
 /** 
@@ -8,9 +8,10 @@ var Trie = function() {
  * @return {void}
  */
 Trie.prototype.insert = function(word) {
-    let node = this.root;
-    for(const letter of word) {
-        if(!node[letter]) node[letter] = {};
+    let node = this.trie;
+    for (let i = 0; i < word.length; i++) {
+        const letter = word[i];
+        if (!node.hasOwnProperty(letter)) node[letter] = {};
         node = node[letter];
     }
     node.isEnd = true;
@@ -21,13 +22,12 @@ Trie.prototype.insert = function(word) {
  * @return {boolean}
  */
 Trie.prototype.search = function(word) {
-    let node = this.root;
-    for(const letter of word) {
-        if(!node[letter]) return false;
-        else node = node[letter];
+    let node = this.trie;
+    for (const letter of word) {
+        if (node.hasOwnProperty(letter)) node = node[letter];
+        else return false;
     }
-    if(node && node.isEnd) return true;
-    return false;
+    return !!node.isEnd
 };
 
 /** 
@@ -35,10 +35,10 @@ Trie.prototype.search = function(word) {
  * @return {boolean}
  */
 Trie.prototype.startsWith = function(prefix) {
-    let node = this.root;
-    for(const letter of prefix) {
-        if(!node[letter]) return false;
-        else node = node[letter];
+    let node = this.trie;
+    for (const letter of prefix) {
+        if (node.hasOwnProperty(letter)) node = node[letter];
+        else return false;
     }
     return true;
 };
