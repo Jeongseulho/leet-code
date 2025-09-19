@@ -3,21 +3,30 @@
  * @return {string[]}
  */
 var letterCombinations = function(digits) {
-    const letters = ['', '', 'abc', 'def', 'ghi', 'jkl', 'mno', 'pqrs', 'tuv', 'wxyz'];
-    const possibleLetter = digits.split('').map((digit) => letters[digit].split(''));
-
+    if (digits.length === 0) return [];
     const ans = [];
-    const combination = (comb, selectIdx) => {
-        if(comb.length === digits.length) {
-            if(comb.length) ans.push(comb);
-            return;
-        }
+    const numCharMap = {
+        2: 'abc',
+        3: 'def',
+        4: 'ghi',
+        5: 'jkl',
+        6: 'mno',
+        7: 'pqrs',
+        8: 'tuv',
+        9: 'wxyz',
+    }
 
-        possibleLetter[selectIdx].forEach((letter) => {
-            combination(comb + letter, selectIdx + 1);
+    const combination = (comb, restNums) => {
+        if (digits.length === comb.length) return ans.push(comb.join(''));
+
+        restNums.forEach((num, idx) => {
+            for (const letter of numCharMap[num]) {
+                combination([...comb, letter], restNums.slice(idx + 1));
+            }
         })
     }
 
-    combination('', 0);
+    combination([], digits.split(''));
+
     return ans;
 };
