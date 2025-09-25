@@ -7,8 +7,8 @@ var permute = function(nums) {
     const permutation = (perm, rests) => {
         if(perm.length === nums.length) return ans.push(perm);
 
-        rests.forEach((ele, idx) => {
-            permutation([...perm, ele], rests.filter((_, restIdx) => idx !== restIdx));
+        rests.forEach((rest, idx) => {
+            permutation([...perm, rest], rests.filter((_, selectIdx) => idx !== selectIdx));
         })
     }
 
