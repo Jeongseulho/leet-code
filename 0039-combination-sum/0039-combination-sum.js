@@ -5,17 +5,16 @@
  */
 var combinationSum = function(candidates, target) {
     const ans = [];
-    const multipleComb = (comb, rests, sum) => {
-        if(sum >= target) {
-            if(sum === target) ans.push(comb);
-            return;
-        }
-        rests.forEach((ele, idx) => {
-            multipleComb([...comb, ele], rests.slice(idx), sum + ele);
+    const combination = (comb, sum, rests) => {
+        if(sum > target) return;
+        if(sum === target) return ans.push(comb);
+
+        rests.forEach((selectNum, idx) => {
+            combination([...comb, selectNum], sum + selectNum, rests.slice(idx));
         })
     }
 
-    multipleComb([], candidates, 0);
+    combination([], 0, candidates);
 
     return ans;
 };
