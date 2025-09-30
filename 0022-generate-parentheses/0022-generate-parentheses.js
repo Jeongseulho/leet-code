@@ -4,14 +4,16 @@
  */
 var generateParenthesis = function(n) {
     const ans = [];
-    const combination = (comb, openCnt, closeCnt) => {
-        if(closeCnt > openCnt || closeCnt > n || openCnt > n) return;
-        if(comb.length === n * 2) return ans.push(comb);
+    const dfs = (str, openCnt, closeCnt) => {
+        if(closeCnt > openCnt) return;
+        if(openCnt > n || closeCnt > n) return;
+        if(openCnt === n && closeCnt === n) return ans.push(str);
 
-        combination(comb + '(', openCnt + 1, closeCnt);
-        combination(comb + ')', openCnt, closeCnt + 1);
+        dfs(str + '(', openCnt + 1, closeCnt);
+        dfs(str + ')', openCnt, closeCnt + 1);
     }
 
-    combination('', 0, 0);
+    dfs('', 0, 0);
+
     return ans;
 };
