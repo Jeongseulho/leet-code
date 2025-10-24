@@ -187,6 +187,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0735-asteroid-collision](https://github.com/Jeongseulho/leet-code/tree/master/0735-asteroid-collision) |
 | [0739-daily-temperatures](https://github.com/Jeongseulho/leet-code/tree/master/0739-daily-temperatures) |
 | [0747-min-cost-climbing-stairs](https://github.com/Jeongseulho/leet-code/tree/master/0747-min-cost-climbing-stairs) |
+| [0772-construct-quad-tree](https://github.com/Jeongseulho/leet-code/tree/master/0772-construct-quad-tree) |
 | [0907-koko-eating-bananas](https://github.com/Jeongseulho/leet-code/tree/master/0907-koko-eating-bananas) |
 | [0945-snakes-and-ladders](https://github.com/Jeongseulho/leet-code/tree/master/0945-snakes-and-ladders) |
 | [1036-rotting-oranges](https://github.com/Jeongseulho/leet-code/tree/master/1036-rotting-oranges) |
@@ -377,6 +378,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0200-number-of-islands](https://github.com/Jeongseulho/leet-code/tree/master/0200-number-of-islands) |
 | [0212-word-search-ii](https://github.com/Jeongseulho/leet-code/tree/master/0212-word-search-ii) |
 | [0289-game-of-life](https://github.com/Jeongseulho/leet-code/tree/master/0289-game-of-life) |
+| [0772-construct-quad-tree](https://github.com/Jeongseulho/leet-code/tree/master/0772-construct-quad-tree) |
 | [0945-snakes-and-ladders](https://github.com/Jeongseulho/leet-code/tree/master/0945-snakes-and-ladders) |
 | [1036-rotting-oranges](https://github.com/Jeongseulho/leet-code/tree/master/1036-rotting-oranges) |
 | [2038-nearest-exit-from-entrance-in-maze](https://github.com/Jeongseulho/leet-code/tree/master/2038-nearest-exit-from-entrance-in-maze) |
@@ -474,6 +476,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0530-minimum-absolute-difference-in-bst](https://github.com/Jeongseulho/leet-code/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0543-diameter-of-binary-tree](https://github.com/Jeongseulho/leet-code/tree/master/0543-diameter-of-binary-tree) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/Jeongseulho/leet-code/tree/master/0637-average-of-levels-in-binary-tree) |
+| [0772-construct-quad-tree](https://github.com/Jeongseulho/leet-code/tree/master/0772-construct-quad-tree) |
 | [0783-search-in-a-binary-search-tree](https://github.com/Jeongseulho/leet-code/tree/master/0783-search-in-a-binary-search-tree) |
 | [0904-leaf-similar-trees](https://github.com/Jeongseulho/leet-code/tree/master/0904-leaf-similar-trees) |
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/Jeongseulho/leet-code/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
@@ -624,6 +627,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0148-sort-list](https://github.com/Jeongseulho/leet-code/tree/master/0148-sort-list) |
 | [0169-majority-element](https://github.com/Jeongseulho/leet-code/tree/master/0169-majority-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Jeongseulho/leet-code/tree/master/0215-kth-largest-element-in-an-array) |
+| [0772-construct-quad-tree](https://github.com/Jeongseulho/leet-code/tree/master/0772-construct-quad-tree) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
