@@ -15,56 +15,31 @@
  * @return {_Node}
  */
 var construct = function(grid) {
-    return buildTree(grid);
+    const build = (x, y, size) => {
+        if (size === 1) {
+            return new Node(grid[x][y] === 1, true);
+        }
+
+        const half = size >> 1;
+        const topLeft = build(x, y, half);
+        const topRight = build(x, y + half, half);
+        const bottomLeft = build(x + half, y, half);
+        const bottomRight = build(x + half, y + half, half);
+
+        if (
+            topLeft.isLeaf &&
+            topRight.isLeaf &&
+            bottomLeft.isLeaf &&
+            bottomRight.isLeaf &&
+            topLeft.val === topRight.val &&
+            topLeft.val === bottomLeft.val &&
+            topLeft.val === bottomRight.val
+        ) {
+            return new Node(topLeft.val, true);
+        }
+
+        return new Node(false, false, topLeft, topRight, bottomLeft, bottomRight);
+    };
+
+    return build(0, 0, grid.length);
 };
-
-function buildTree(grid) {
-    if (isLeaf(grid)) {
-        const val = !!grid[0][0];
-        return new _Node(val, true, null, null, null, null);
-    }
-    const { topLeft, topRight, bottomLeft, bottomRight } = getSubGrids(grid);
-    const root = new _Node(
-        true,
-        false,
-        buildTree(topLeft),
-        buildTree(topRight),
-        buildTree(bottomLeft),
-        buildTree(bottomRight)
-    );
-    return root;
-}
-
-function isLeaf(grid) {
-    const n = grid.length;
-    const val = grid[0][0];
-    for(i = 0; i < n; i++) {
-        for(j = 0 ; j < n; j++) {
-            if(val !== grid[i][j]) return false;
-        }
-    }
-
-    return true;
-}
-
-function getSubGrids(grid) {
-    const n = grid.length;
-    const mid = n / 2;
-
-    const topLeft = [];
-    const topRight = [];
-    const bottomLeft = [];
-    const bottomRight = [];
-
-    for (let i = 0; i < n; i++) {
-        if (i < mid) {
-            topLeft.push(grid[i].slice(0, mid));
-            topRight.push(grid[i].slice(mid));
-        } else {
-            bottomLeft.push(grid[i].slice(0, mid));
-            bottomRight.push(grid[i].slice(mid));
-        }
-    }
-
-    return { topLeft, topRight, bottomLeft, bottomRight };
-}
