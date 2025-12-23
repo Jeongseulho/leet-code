@@ -4,26 +4,42 @@
  * @return {boolean}
  */
 var searchMatrix = function(matrix, target) {
-    const m = matrix.length, n = matrix[0].length;
-    let lowI = 0, highI = m - 1;
-    let targetRow = -1;
-    while(lowI <= highI) {
-        const mid = Math.floor((lowI + highI) / 2);
-        if(matrix[mid][0] <= target && target <= matrix[mid][n - 1]) {
-            targetRow = mid;
+    const n = matrix[0].length
+    const m = matrix.length;
+
+    let si = 0;
+    let ei = m - 1;
+    let targeti = 0;
+
+    while(si <= ei) {
+        const midi = Math.floor((si + ei)/2);
+        const smidi = matrix[midi][0];
+        const emidi = matrix[midi][n - 1];
+        if(smidi <= target && target <= emidi) {
+            targeti = midi;
             break;
-        } else if(target < matrix[mid][0]) highI = mid - 1;
-        else lowI = mid + 1;
+        }
+        if(target < smidi) {
+            ei = midi - 1;
+        } else {
+            si = midi + 1;
+        }
     }
 
-    if(targetRow === -1) return false;
+    let sj = 0;
+    let ej = n - 1;
+    let targetj = 0;
 
-    let lowJ = 0, highJ = n - 1;
-    while(lowJ <= highJ) {
-        const mid = Math.floor((lowJ + highJ) / 2);
-        if(matrix[targetRow][mid] === target) return true;
-        else if(matrix[targetRow][mid] < target) lowJ = mid + 1;
-        else highJ = mid - 1;
+    while(sj <= ej) {
+        const midj = Math.floor((sj + ej)/2);
+        if(target === matrix[targeti][midj]) {
+            return true;
+        }
+        if(target < matrix[targeti][midj]) {
+            ej = midj - 1;
+        } else {
+            sj = midj + 1;
+        }
     }
 
     return false;
