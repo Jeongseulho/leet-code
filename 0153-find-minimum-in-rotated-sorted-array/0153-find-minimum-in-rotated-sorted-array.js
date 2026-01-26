@@ -3,20 +3,15 @@
  * @return {number}
  */
 var findMin = function(nums) {
-    let low = 0, high = nums.length - 1;
-    let min = 5001;
+    if(nums.length === 1) return nums[0];
+    if(nums[0] < nums[nums.length - 1]) return nums[0];
 
-    while(low <= high) {
-        const mid = Math.floor((low + high) / 2);
-        if(nums[mid] < nums[high]) {
-            min = Math.min(min, nums[mid]);
-            high = mid - 1;
-        }
-        else {
-            min = Math.min(min, nums[low]);
-            low = mid + 1;
-        }
+    let left = 0;
+    let right = nums.length - 1;
+    while(left <= right) {
+        const mid = Math.floor((left + right) / 2);
+        if(nums[mid] < nums[mid - 1]) return nums[mid];
+        if(nums[right] < nums[mid]) left = mid + 1;
+        else right = mid;
     }
-    
-    return min;
 };
