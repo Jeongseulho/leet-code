@@ -5,28 +5,32 @@
  */
 var findMedianSortedArrays = function(nums1, nums2) {
     if (nums1.length > nums2.length) {
-        [nums1, nums2] = [nums2, nums1];
+        return findMedianSortedArrays(nums2, nums1);
     }
 
-    let low = 0;
-    let high = nums1.length;
-    const totalLen = nums1.length + nums2.length;
-    const leftLen = Math.ceil(totalLen / 2);
+    const len1 = nums1.length;
+    const len2 = nums2.length;
+    let left = 0, right = len1;
 
-    while (low <= high) {
-        const mid1 = Math.floor((low + high) / 2);
-        const mid2 = leftLen - mid1;
+    while (left <= right) {
+        const part1 = Math.floor((left + right) / 2);
+        const part2 = Math.floor((len1 + len2 + 1) / 2) - part1;
 
-        const maxLeft1 = mid1 > 0 ? nums1[mid1 - 1] : Number.NEGATIVE_INFINITY;
-        const minRight1 = mid1 < nums1.length ? nums1[mid1] : Number.POSITIVE_INFINITY;
-
-        const maxLeft2 = mid2 > 0 ? nums2[mid2 - 1] : Number.NEGATIVE_INFINITY;
-        const minRight2 = mid2 < nums2.length ? nums2[mid2] : Number.POSITIVE_INFINITY;
+        const maxLeft1 = part1 === 0 ? -Infinity : nums1[part1 - 1];
+        const minRight1 = part1 === len1 ? Infinity : nums1[part1];
+        const maxLeft2 = part2 === 0 ? -Infinity : nums2[part2 - 1];
+        const minRight2 = part2 === len2 ? Infinity : nums2[part2];
 
         if (maxLeft1 <= minRight2 && maxLeft2 <= minRight1) {
-            if (totalLen % 2 === 0) return (Math.max(maxLeft1, maxLeft2) + Math.min(minRight1, minRight2)) / 2;
-            else return Math.max(maxLeft1, maxLeft2);
-        } else if (maxLeft1 > minRight2) high = mid1 - 1;
-        else low = mid1 + 1;
-    }
+            if ((len1 + len2) % 2 === 0) {
+                return (Math.max(maxLeft1, maxLeft2) + Math.min(minRight1, minRight2)) / 2;
+            } else {
+                return Math.max(maxLeft1, maxLeft2);
+            }
+        } else if (maxLeft1 > minRight2) {
+            right = part1 - 1;
+        } else {
+            left = part1 + 1;
+        }
+    }    
 };
